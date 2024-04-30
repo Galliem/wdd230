@@ -6,8 +6,11 @@
     <meta name="description" content="WDD 230 - Web Frontend Development - Allie Garner - course assignment portal">
     <meta name="author" content="Allie Garner">
     <title>Allie Garner - WDD 230 - Web Frontend Development</title>
+    <link rel="stylesheet" href="styles/base.css">
+    <script src="scripts/getdates.js" defer></script> <!--defer waits for data to load before this script starts-->
 </head>
 <body>
+    <div id="content">
     <header>
         <img src="images/headshot.JPG" alt="Allie Garner headshot">
         <h1>Allie M. Garner</h1>
@@ -23,16 +26,22 @@
     </nav>
     <main>
         <h2>WDD 230: Web Frontend Development 1</h2>
-        <hr>
+        <hr> <!--This is a horizontal rule-->
         <section class="card">
             <h3>Learning Activities</h3>
+            <ul>
+                <li>Week 1:<a href="#">Lesson 1</a></li>
+            </ul>
         </section>
         <section class="card">
             <h3>Information</h3>
+            <p>Weather Information:</p>
+            <p>Page visits:</p>
         </section>
+        </div>
     </main>
     <footer>
-        <p>©2024 - Allie Garner - United States</p>
+        <p>&copy;<span id="currentYear"></span> - Allie Garner - Utah, United States</p> <!-- &copy will print a copyright symbol-->
         <p id="lastModified"></p>
     </footer>
 </body>
