@@ -1,7 +1,12 @@
 main section p{
-    padding: 1rem;
+    border: 1px #717EC3 solid;
+    margin: 0.5rem;
+    box-shadow: 3px 3px var(--shadow);
 }
-
+h2{
+    color:#0D0221;
+    text-align: center;
+}
 p{
     display: block;
     margin-block-start: 1em;
@@ -9,7 +14,23 @@ p{
     margin-inline-start: 0px;
     margin-inline-end: 0px;
     unicode-bidi: isolate;
+    background-color: #ECE4B7;
+}
+img{
+    max-width: 300px;
 }
 body{
     margin: 0 auto;
+    font-family: Roboto, Sans-serif;
+    background-color: var(--body-background);
+    text-align: center;
+}
+:root {
+    --shadow: #D36135;
+    --header-background: #ECE4B7;
+    --body-background: #E6AA68;
+}
+html{
+    line-height:1.15;
+    -webkit-text-size-adjust: 100%;
 }
