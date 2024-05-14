@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam&family=Montserrat:wght@300&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+:root{
+    --background-color:#ECE4B7;
+    --accent-color:#D36135;
+    --header-color:#E6AA68;
+}
+
+body{
+    font-family: "Open Sans", sans-serif;
+    background-color: var(--background-color);
+
+}
+
+#content{
+    max-width:800px;
+    margin: 0 auto;
+}
+
+main{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+ul{
+    list-style: none;
+
+}
+
+header{
+    display: grid;
+    background-color: var(--header-color);
+}
+
+header img{
+    height: 150px;
+    margin: 20px;
+}
+
+header h1{
+    text-align: center;
+    margin-top: 40px;
+}
+button{
+    
+}
+
+#content nav ul{
+    background-color: var(--accent-color);
+}
+nav ul{
+    padding-inline-start: 0px;
+}
+nav ul li{
+    text-align: center;
+    margin: 20px;
+}
+
+nav ul li a{
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+}
+
+main h2{
+    text-align: center;
+}
+
+main ul li a{
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+}
+
+footer{
+    text-align: center;
+    background-color: var(--header-color);
+}
+.card h3{
+    text-align: center;
+    background-color: var(--header-color);
+}
