@@ -45,6 +45,7 @@ main{
 .spotlight{
     text-align: center;
     border: solid var(--nav-color) 1px;
+    margin: 10px;
 }
 
 footer{
