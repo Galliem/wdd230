@@ -41,9 +41,6 @@ header h1{
     text-align: center;
     margin-top: 40px;
 }
-button{
-    
-}
 
 #content nav ul{
     background-color: var(--accent-color);

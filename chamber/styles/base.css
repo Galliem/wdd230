@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam&family=Montserrat:wght@300&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+:root{
+    --background-color:#ECE4B7;
+    --accent-color:#D36135;
+    --header-color:#E6AA68;
+    --text-color:#0D0221;
+    --nav-color:#717EC3;
+}
+
+body{
+    font-family: "Open Sans", sans-serif;
+    background-color: var(--background-color);
+}
+button{
+    background-color: var(--background-color);
+}
+
+header{
+    display: grid;
+    background-color: var(--header-color);
+    text-align: center;
+}
+
+nav ul li a{
+    color:var(--text-color);
+    text-decoration: none;
+    padding: 10px;
+}
+main{
+    padding: 10px;
+    display:grid;
+}
+
+.hero img{
+    height: 150px;
+    margin: 20px;
+}
+
+.events{
+    border:double var(--nav-color);
+    padding: 10px;
+}
+
+.spotlight{
+    text-align: center;
+    border: solid var(--nav-color) 1px;
+}
+
+footer{
+    text-align: center;
+    background-color: var(--header-color)
+}

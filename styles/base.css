@@ -34,7 +34,7 @@ header h1{
 }
 
 button{
-    color:#ffffff;
+    color:var(--accent-color);
 }
 
 main{
