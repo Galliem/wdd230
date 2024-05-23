@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Allie Garner">
-    <meta name="description" content="WDD 230 - BYU-I - Spring 2024 - Chamber Project">
+    <meta name="description" content="WDD 230 - BYU-I - Spring 2024 - Chamber Project"> 
+    <!-- description - 150-160characters, keywords, call to action, unique for each page, avoid keyword stuffing-->
     <meta property="og:title" content="Poolville Texas Chamber of Commerce"/> <!--og is open graph-->
     <meta property="og:type" content="website"/>
     <meta property="og:image" content="https://galliem.github.io/wdd230/images/headshot.JPG"/>
@@ -19,10 +20,13 @@
 </head>
 <body>
     <header>
+        <div><img src="images/"></div>
         <h1>Poolville Texas Chamber of Commerce</h1>
+        <button id="dark-mode"></button>
     </header>
     <nav>
-        <ul>
+        <button id="menu"></button>
+        <ul id="navbar">
             <li><a href="">Home</a></li>
             <li><a href="lesson03/chamber-site-plan.html">Site Plan</a></li>
             <li><a href="lesson03/chamber/">Chamber</a></li>
@@ -34,16 +38,24 @@
     <main>
         <section class="hero">
             <img src="https://picsum.photos/800/400" alt="hero image">
-            <button>Call to Action!</button>
+            <button>Join Chamber</button>
         </section>
         <section class="events">
-            <h3>Events</h3>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id voluptate fugiat soluta laudantium voluptatibus adipisci eius vero assumenda maxime distinctio ipsum minus expedita quisquam incidunt fuga accusamus nesciunt nemo recusandae, debitis cumque. Earum porro esse magni. Inventore nihil maiores optio voluptate labore, fugit nulla autem eveniet. Debitis ab optio doloribus saepe commodi unde culpa! Enim quos ut provident praesentium illo quaerat facere doloribus dolorum! Fugit reprehenderit blanditiis pariatur laudantium unde. Ea explicabo quis delectus molestias consectetur placeat illum, tenetur corporis nobis vero est omnis natus eius laborum reiciendis vel error voluptatum odit libero numquam. Eveniet corrupti iure aperiam magni quasi.</p>
+            <h2>Events</h2>
+            <div class="event-cards">
+                <h3>1st Event</h3>
+                <img src="images/">
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id voluptate fugiat soluta laudantium voluptatibus adipisci eius vero assumenda maxime distinctio ipsum minus expedita quisquam incidunt fuga accusamus nesciunt nemo recusandae, debitis cumque. Earum porro esse magni. Inventore nihil maiores optio voluptate labore, fugit nulla autem eveniet. Debitis ab optio doloribus saepe commodi unde culpa! Enim quos ut provident praesentium illo quaerat facere doloribus dolorum! Fugit reprehenderit blanditiis pariatur laudantium unde. Ea explicabo quis delectus molestias consectetur placeat illum, tenetur corporis nobis vero est omnis natus eius laborum reiciendis vel error voluptatum odit libero numquam. Eveniet corrupti iure aperiam magni quasi.</p>
+            </div>
+        </section> 
         </section>
         <section class="weather">
-            <h3>Weather</h3>
-            <p>Current Conditions: Cloudy</p>
-            <p>Current Temp: 60&deg;F</p>
+            <h2>Weather</h2>
+            <div class="weather-card">
+                <img src="images/">
+                <p>Current Conditions: Cloudy</p>
+                <p>Current Temp: 60&deg;F</p>  
+            </div>  
         </section>
         <section class="spotlights">
             <section class="spotlight spotlight1">
@@ -57,20 +69,26 @@
             <section class="spotlight spotlight3">
                 <h3>Spotlight3</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia consectetur id ratione obcaecati recusandae soluta debitis sequi neque accusantium adipisci minima omnis, ipsum numquam atque, laborum corrupti esse dolor eaque a aliquam libero laudantium vitae sint molestias. Est obcaecati quae ratione ullam, rerum, distinctio, optio qui ducimus iste atque dolor.</p>
-            
             </section>
         </section>
     </main>
     <footer>
-        <img src="https://picsum.photos/800/400" alt="logo image">
-        <p>Poolville Texas Chamber of Commerce</p>
-        <p>132 Main Street</p>
-        <p>Poolville, TX 76487</p>
-        <p>email@email.com</p>
-        <hr>
-        <p>&copy;<span id="currentYear"></span></p>
-        <p>WDD 230 Project</p>
-        <p>Last Modified: <span id="lastModified"></span></p>
+        <div class="footer">
+            <div>
+                <img src="https://picsum.photos/800/400" alt="logo image">
+            </div>
+            <div>
+                <p>Poolville Texas Chamber of Commerce</p>
+                <p>132 Main Street</p>
+                <p>Poolville, TX 76487</p>
+                <p><a href="mailto:info@poolvillechamber.org">info@poolvillechamber.org</a></p>
+            </div>
+            <div class="base-footer">
+                <p>&copy;<span id="currentYear"></span> Allie Garner</p>
+                <p>WDD 230 Project</p>
+                <p>Last Modified: <span id="lastModified"></span></p>
+            </div>
+        </div> 
     </footer>
 </body>
 </html>

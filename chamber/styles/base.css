@@ -6,20 +6,46 @@
     --header-color:#E6AA68;
     --text-color:#0D0221;
     --nav-color:#717EC3;
+    --inv-text-color:#ECE4B7;
 }
 
 body{
     font-family: "Open Sans", sans-serif;
     background-color: var(--background-color);
+    color:var(--text-color);
 }
 button{
     background-color: var(--background-color);
+    color: var(--text-color);
+    position: absolute;
 }
 
 header{
     display: grid;
     background-color: var(--header-color);
+    color:var(--text-color);
     text-align: center;
+}
+
+#menu{
+    content:"≡";
+    padding: .25rem .5rem;
+    overflow: visible;
+    text-align: center;
+    display:inline-block;
+}
+
+
+nav ul{
+    padding-inline-start: 0px;
+}
+
+nav ul li{
+    list-style: none;
+    width: 100%;
+    background-color: var(--accent-color);
+    text-align: center;
+    padding-inline-start: none;
 }
 
 nav ul li a{
@@ -27,25 +53,75 @@ nav ul li a{
     text-decoration: none;
     padding: 10px;
 }
+
+nav li.hover{
+    opacity: .7;
+}
+
+#dark-mode{
+    background-color: var(--background-color);
+    position:absolute;
+    height: 2rem;
+    top: 1rem;
+    right: 1rem;
+}
+
+#dark-mode::before{
+    content: "🌑";
+}
+
+#dark-mode.dark::before{
+    content: "☀️";
+}
+
 main{
     padding: 10px;
     display:grid;
 }
 
+.hero{
+    border-top: 2px solid var(--nav-color);
+    border-bottom: 2px solid var(--nav-color);
+    position: relative;
+    text-align: center;
+    overflow: hidden;
+    max-height: 400px;
+}
+
 .hero img{
-    height: 150px;
-    margin: 20px;
+    width: 100%;
+    border-style: none;
+    overflow: clip;
+}
+
+.hero button{
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    background-color: var(--nav-color);
+
 }
 
 .events{
     border:double var(--nav-color);
+    margin: 5px;
     padding: 10px;
+    background-color: var(--header-color);
+}
+
+.weather{
+    align-content: center;
+    border:double var(--nav-color);
+    margin: 5px;
+    padding: 10px;
+    background-color: var(--header-color);
 }
 
 .spotlight{
     text-align: center;
     border: solid var(--nav-color) 1px;
     margin: 10px;
+    background-color: var(--header-color);
 }
 
 footer{
