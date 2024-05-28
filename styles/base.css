@@ -36,6 +36,13 @@ header h1{
 button{
     color:var(--accent-color);
 }
+#menu-button::before{
+    content: "≡";
+}
+
+#menu-button.open::before{
+    content: "X";
+}
 
 main{
     display: grid;

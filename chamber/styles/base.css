@@ -20,6 +20,14 @@ button{
     position: absolute;
 }
 
+#menu::before{
+    content:"≡";
+}
+
+#menu.open::before{
+    content:"X";
+}
+
 header{
     display: grid;
     background-color: var(--header-color);
@@ -28,13 +36,10 @@ header{
 }
 
 #menu{
-    content:"≡";
     padding: .25rem .5rem;
     overflow: visible;
     text-align: center;
-    display:inline-block;
 }
-
 
 nav ul{
     padding-inline-start: 0px;
@@ -103,7 +108,7 @@ main{
 }
 
 .events{
-    border:double var(--nav-color);
+    border:double var(--nav-color) 1px;
     margin: 5px;
     padding: 10px;
     background-color: var(--header-color);
@@ -111,7 +116,7 @@ main{
 
 .weather{
     align-content: center;
-    border:double var(--nav-color);
+    border:double var(--nav-color) 1px;
     margin: 5px;
     padding: 10px;
     background-color: var(--header-color);
