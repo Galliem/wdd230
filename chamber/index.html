@@ -17,6 +17,7 @@
     <link rel="stylesheet" href="styles/medium.css">
     <link rel="stylesheet" href="styles/larger.css">
     <script src="scripts/header-footer.js" defer></script>
+    <script src="scripts/windchill.js" defer></script>
 </head>
 <body>
     <header>
@@ -37,24 +38,31 @@
     </nav>
     <main>
         <section class="hero">
+            <!-- <img srv="images/picture.jpg" alt="hero imgae"> -->
+            <picture>
+                <source media="(max-width: 800px)" srcset="./images/temple-small.webp">
+
+            </picture>
             <img src="https://picsum.photos/800/400" alt="hero image">
             <button>Join Chamber</button>
         </section>
         <section class="events">
             <h2>Events</h2>
             <div class="event-cards">
-                <h3>1st Event</h3>
-                <img src="images/">
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id voluptate fugiat soluta laudantium voluptatibus adipisci eius vero assumenda maxime distinctio ipsum minus expedita quisquam incidunt fuga accusamus nesciunt nemo recusandae, debitis cumque. Earum porro esse magni. Inventore nihil maiores optio voluptate labore, fugit nulla autem eveniet. Debitis ab optio doloribus saepe commodi unde culpa! Enim quos ut provident praesentium illo quaerat facere doloribus dolorum! Fugit reprehenderit blanditiis pariatur laudantium unde. Ea explicabo quis delectus molestias consectetur placeat illum, tenetur corporis nobis vero est omnis natus eius laborum reiciendis vel error voluptatum odit libero numquam. Eveniet corrupti iure aperiam magni quasi.</p>
+                <h3>Farmer's Market</h3>
+                <img src="images/farmermarket.webp">
+                <p>Poolville is hosting a local farmer's market this summer! Join us at the park to see what our farms have been working on this season. There will be plenty of room for the kids to run and play while the rest of the family can mingle amongst the neighbors. Mark your calander now!</p>
             </div>
         </section> 
         </section>
         <section class="weather">
             <h2>Weather</h2>
             <div class="weather-card">
-                <img src="images/">
-                <p>Current Conditions: Cloudy</p>
-                <p>Current Temp: 60&deg;F</p>  
+                <img src="images/weather.webp">
+                <p>Current Conditions: <span id="current-conditions">Partly Cloudy</span></p>
+                <p>Current Temp: <span id="temperature">30</span>&deg;F</p>  
+                <p>Curent Wind: <span id="windspeed">10</span>mph</p>
+                <p>Windchill: <span id="windchill"></span></p>
             </div>  
         </section>
         <section class="spotlights">
