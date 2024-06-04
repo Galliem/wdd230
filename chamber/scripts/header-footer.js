@@ -6,7 +6,7 @@ lastmodifiedspan.innerText = document.lastModified
 
 //hamberger menu
 let menubutton = document.getElementById("menu")
-let nav = document.getElementById("nav")
+let nav = document.getElementById("nav ul")
 menubutton.addEventListener("click", () =>{
     menubutton.classList.toggle("open")
     nav.classList.toggle("open")
