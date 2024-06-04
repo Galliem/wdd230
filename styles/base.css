@@ -36,6 +36,11 @@ header h1{
 button{
     color:var(--accent-color);
 }
+
+#menu{
+    background: none;
+}
+
 #menu-button::before{
     content: "≡";
 }
