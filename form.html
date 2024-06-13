@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="WDD 230 - Web Frontend Development - Allie Garner - form example">
+    <meta name="author" content="Allie Garner">
+    <meta property="og:title" content="Allie Garner - WDD 230 - Web Frontend Development"/> <!--og is open graph-->
+    <meta property="og:type" content="website"/>
+    <meta property="og:image" content="https://galliem.github.io/wdd230/images/headshot.JPG"/>
+    <meta property="og:url" content="https://galliem.github.io/wdd230/form.html"/>
+    <title>Allie Garner - WDD 230 - Web Frontend Development - Form Example</title>
+    <link rel="stylesheet" href="styles/normalize.css"> <!--normalized css-->
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="lesson02/styles/media-query-large.css">
+    <link rel="icon" href="favicon.ico">
+    <script src="scripts/getdates.js" defer></script> <!--defer waits for data to load before this script starts-->
+    <script src="scripts/hamburgerMenu.js" defer></script>
+    <script src="scripts/visits.js" defer></script>
+    <script src="scripts/form.js" defer></script>
+
+</head>
+<body>
+    <div id="content">
+        <header>
+            <img src="images/headshot.JPG" alt="Allie Garner headshot">
+            <h1>Allie M. Garner</h1>
+        </header>
+        <button id="menu-button" class="open"></button>
+        <nav class="navigation">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="lesson03/chamber-site-plan.html">Site Plan</a></li>
+                <li><a href="chamber/">Chamber</a></li>
+                <li><a href="https://www.byui.edu">BYU-Idaho</a></li>
+                <li><a href="https://www.churchofjesuschrist.org/study/scriptures/bofm/alma/26?lang=eng">Scripture</a></li>
+                <li><a href="lesson05/bom.html">BOM</a></li>
+                <li><a href="lesson03/images/landscape.webp">WebP</a></li>
+                <li><a href="https://galliem.github.io/wdd230/codePen.html">CodePen</a></li>
+            </ul>
+        </nav>
+        <main>
+            <form action="record.html" method="get">
+                <label>Username:<sup class="red">*</sup> 
+                    <input type="text" name="username" id="username" required>
+                </label>
+                <label>Password:<sup class="red">*</sup> (at least 8 alphanumeric characters)
+                    <input type="password" name="password" id="password" pattern="[A-Za-z0-9]{8,}" required>
+                </label> <!--[A-z] also would work for the alpabet-->
+                <label for="confirm">Confirm:<sup class="red">*</sup> <span id="message"></span>
+                    <input type="password" name="password" id="confirm" required>
+                </label>
+                <label>Email:<sup class="red">*</sup>
+                <input type="email" name="email" id="email" required pattern=".+@byui\.edu"></label> <!-- .+ means anything can come before    \. means the dot character-->
+                <label>Rating:
+                    <input type="range" min="1" max="10" step="1" dataset="myrange">
+                   <!--
+                    <dataset id="myrange">
+                        <option value="1">1</option> <option value="1">A</option>   this would submit A if the user entered 
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                    </dataset> 
+                   -->
+                </label>
+                <button type="submit">Rate My Page!</button>
+                
+            </form>
+        </main>
+    </div>
+    <footer>
+        <p>&copy;<span id="currentYear"></span> - Allie Garner - Utah, United States</p> <!-- &copy will print a copyright symbol-->
+        <p id="lastModified"></p>
+    </footer>
+</body>
+</html>
