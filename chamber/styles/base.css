@@ -87,8 +87,8 @@ nav li.hover{
 
 #dark-mode{
     background-color: var(--background-color);
-    position:absolute;
     height: 2rem;
+    position:absolute;
     top: 1rem;
     right: 1rem;
 }
@@ -160,4 +160,17 @@ main{
 footer{
     text-align: center;
     background-color: var(--header-color)
+}
+
+#discover-images{
+    text-align: center;
+}
+
+.discover-images img{
+    border: 5px solid var(--background-color);
+    transition: opacity 2s;
+}
+
+.discover-images img:hover{
+    opacity: 0.5
 }
