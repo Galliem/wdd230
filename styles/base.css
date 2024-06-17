@@ -159,3 +159,8 @@ button{
     padding: 0.5rem;
     border-radius: 3px;
 }
+
+form{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+}

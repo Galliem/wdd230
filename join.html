@@ -53,26 +53,59 @@
                     <input type="password" name="password" id="password" pattern="[A-Za-z0-9]{7,}" required>
                 </label>
                 <!-- An contact email address, email type, required, name, id, and placeholder which contains an example email input. -->
+                 <label>Email:<sup class="red">*</sup>
+                    <input type="text" name="email" id="email" required> 
+                </label>
                 <!-- A mobile phone number, telephone type, required, name, and id. -->
+                 <label>Phone:<sup class="red">*</sup>
+                    <input type="text" name="phone" id="phone" required>
+                 </label>
                 <!-- The business/organization's name, text type, required, name, and id. -->
+                 <label>Organization's Name:<sup class="red">*</sup>
+                    <input type="text" name="organization" id="organization" required>
+                 </label>
                 <!-- A membership level selection using an appropriate form field of your choosing to allow the user to select a membership level. There are four membership levels. -->
-                <!-- NP Membership is for non profit organizations and there is no fee. 
+                 <label>Membership level:<sup class="red">*</sup>
+                    <!-- NP Membership is for non profit organizations and there is no fee. 
                         Bronze Membership
                         Silver Membership
                         Gold Membership-->
+                    <label for="bronze">Bronze Membership</label>
+                    <input type="radio" name="bronzeLevel" id="bronzeLevel">
+                    <label for="silver">Silver Membership</label>
+                    <input type="radio" name="silverLevel" id="silverLevel">
+                    <label for="gold">Gold Membership</label>
+                    <input type="radio" name="goldLevel" id="goldLevel">
+                 </label>
                 <!-- A business/organization's description, text area, name, and id. -->
+                 <label>Organization's Description:
+                    <input type="text" name="description" id="description">
+                 </label>
                 <!-- An input element of type (hidden) with a name and id. This field contains the current date/time in millisecond format Date.now(), which records the date and time that the form was loaded by the user. You must use JavaScript to set the value of this field. 
                         🚑 Hint: What property do you need to use to set the value of that hidden input element?-->
+                <label>
+                    <input type="hidden" name="datetime" id="datetime">
+                </label>
 
                 <!-- A form submission button with type submit that is properly labeled in the content area of the button. -->
-                <!-- An <input type="submit"> could be use here. In terms of functionality, they both trigger the form submission when clicked. The choice between them often comes down to personal preference, styling requirements, and whether you need to include additional content within the button. If you need more flexibility and consistent styling, the <button> element might be a better choice. -->
-
-                <!-- Membership level benefits should be displayed to the side of the form in larger views. For example, a two column layout may be appropriate. Try to keep things uniform and visually appealing.
-                These membership levels have increasing costs as well as increased benefits per level. Benefits might include special events, training, advertising (like spotlight positions on the home page), event discounts, etc.
-                🤖 This might be a good place to use an AI tool to help you generate some membership level descriptions or features for the content.
-                Ensure that the design meets standards such as eye tracking in a straight line and proper keyboard progression (tabs) for accessibility. 📃 Designing more Efficient Forms
-                Create a new page named "thankyou.html" that expresses gratitude for filling out the form. This page should load when the user has successfully submitted the form. The design should follow your site pattern and does not need to have a lot of actual content.
-                The design should deviate from the learning activity's example of styling and design. Make the design your own. -->
+                    <!-- An <input type="submit"> could be use here. In terms of functionality, they both trigger the form submission when clicked. The choice between them often comes down to personal preference, styling requirements, and whether you need to include additional content within the button. If you need more flexibility and consistent styling, the <button> element might be a better choice. -->
+                <button type="button" name="submit" id="submit">Submit</button>
+                <!-- Membership level benefits should be displayed to the side of the form in larger views. For example, a two column layout may be appropriate. Try to keep things uniform and visually appealing. -->
+                <!-- These membership levels have increasing costs as well as increased benefits per level. -->
+                    <!-- Benefits might include special events, training, advertising (like spotlight positions on the home page), event discounts, etc. -->
+                <div class="membershipLevel">
+                    <h2>Membership Level Benefits</h2>
+                        <h3>Bronze</h3>
+                        <p>this level...</p>
+                        <h3>Silver</h3>
+                        <p>This level...</p>
+                        <h3>Gold</h3>
+                        <p>This level... </p>
+                </div>
+                <!-- 🤖 This might be a good place to use an AI tool to help you generate some membership level descriptions or features for the content. -->
+                <!-- Ensure that the design meets standards such as eye tracking in a straight line and proper keyboard progression (tabs) for accessibility. 📃 Designing more Efficient Forms -->
+                <!-- Create a new page named "thankyou.html" that expresses gratitude for filling out the form. This page should load when the user has successfully submitted the form. The design should follow your site pattern and does not need to have a lot of actual content. -->
+                <!-- The design should deviate from the learning activity's example of styling and design. Make the design your own. -->
            </form>
         </main>
     </div>
