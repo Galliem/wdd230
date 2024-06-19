@@ -14,6 +14,18 @@
         grid-template-columns: repeat(3, 1fr);
     }
 
+    nav ul{
+            display:flex;
+    }
+
+    nav ul.open{
+            flex-direction: row;
+    }
+    
+    #menu-button{
+            display: none;
+    }
+
     .hero img{
         width: 100%;
     }

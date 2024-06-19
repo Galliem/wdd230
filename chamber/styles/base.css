@@ -30,7 +30,7 @@ button{
 
 header{
     display: grid;
-    grid-template-columns: 1fr 2.5fr 0.5fr;
+    grid-template-columns: 0.5fr 2fr 0.5fr;
     background-color: var(--header-color);
     color:var(--text-color);
     text-align: center;
@@ -177,10 +177,17 @@ main{
     background-color: var(--header-color);
 }
 
-.footer-image, .address{
+.footer-info{
     display: grid;
     grid-template-columns: 1fr 2fr;
     padding: 15px;
+}
+
+.footer-image{
+    grid-column: 1/2;
+}
+.address{
+    grid-column: 2/3;
 }
 
 #discover-images{
@@ -194,4 +201,27 @@ main{
 
 .discover-images img:hover{
     opacity: 0.5
+}
+
+label{
+    display:block
+}
+
+input{
+    display:block;
+    margin-bottom:1rem;
+    font-size: 1.2rem;
+    padding: 0.3rem;
+}
+
+button{
+    font-size: 1.5rem;
+    background-color: var(--nav-color);
+    padding: 0.5rem;
+    border-radius: 3px;
+}
+
+form{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
 }

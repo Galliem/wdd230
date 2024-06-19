@@ -9,11 +9,10 @@
 body{
     font-family: "Open Sans", sans-serif;
     background-color: var(--background-color);
-
 }
 
 #content{
-    max-width:800px;
+    max-width:1000px;
     margin: 0 auto;
 }
 
@@ -21,6 +20,7 @@ header{
     display: grid;
     grid-template-columns: 1fr 4fr;
     background-color: var(--header-color);
+    justify-content: center;
 }
 
 header img{
@@ -28,17 +28,9 @@ header img{
     margin: 20px;
 }
 
-header h1{
+header h1{ /*Allie M Garner*/
     text-align: center;
     margin-top: 40px;
-}
-
-button{
-    color:var(--accent-color);
-}
-
-#menu{
-    background: none;
 }
 
 #menu-button::before{
@@ -49,35 +41,34 @@ button{
     content: "X";
 }
 
-main{
-    display: grid;
+nav ul{
+    display: none;
+}
+nav ul.open{
+    display: flex;
+    flex-direction: column;
 }
 
 .temple{
-    text-align: center;
     position: relative;
     justify-content: center;
+    padding-left: 135px;
 }
 
 .temple img{
     border: 2px black solid;
-    width: 750px;
+    width: 700px;
 }
 
-.temple p{
+.temple p{ /*Dallas Texas Temple tag*/
     position: absolute;
     top: 2rem;
     left: 2rem;
-    background-color: var(--background-color);
+    background-color: var(--header-color);
     color: black;
     padding: 0.5rem;
     border: 1px black solid;
     border-radius: 4px;
-}
-
-h2{
-    text-align: center;
-
 }
 
 ul{
@@ -122,9 +113,12 @@ footer{
     background-color: var(--header-color);
 }
 
+.cards{
+    display:grid;
+    grid-column: 2/3;
+}
+
 .card h3{
-    display: block;
-    grid-template-columns: 1fr 1fr;
     text-align: center;
     border: double var(--accent-color) 2px;
     margin: 5px;
@@ -140,27 +134,4 @@ footer{
 }
 #learning-activities li a:hover{
     color:#717EC3;
-}
-
-label{
-    display:block
-}
-
-input{
-    display:block;
-    margin-bottom:1rem;
-    font-size: 1.2rem;
-    padding: 0.3rem;
-}
-
-button{
-    font-size: 1.5rem;
-    background-color: var(--nav-color);
-    padding: 0.5rem;
-    border-radius: 3px;
-}
-
-form{
-    display:grid;
-    grid-template-columns: 1fr 1fr;
 }

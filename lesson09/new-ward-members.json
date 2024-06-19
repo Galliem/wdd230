@@ -1,0 +1,29 @@
+{
+    "familyName" : "Garner",
+    "moveInDate" : "2024-06-01",
+    "numberOfRecords" : 7,
+    "visited" : true,
+    "familyData" : [
+        {"name" : "Scott", 
+        "gender" : "M", 
+        "birthdate" : "1977-12-12"},
+        {"name" : "Julie",
+        "gender" : "F",
+        "birthdate" : "1973-06-26"},
+        {"name" : "Allie", 
+        "gender" : "F", 
+        "birthdate" : "2001-10-25"},
+        {"name" : "Emily",
+        "gender" : "F",
+        "birthdate" : "2003-10-21"},
+        {"name" : "Rachel", 
+        "gender" : "F", 
+        "birthdate" : "2005-06-07"},
+        {"name" : "Ashley",
+        "gender" : "F",
+        "birthdate" : "2007-06-09"},
+        {"name" : "Benjamin", 
+        "gender" : "M", 
+        "birthdate" : "2018-09-02"}
+    ]
+}
