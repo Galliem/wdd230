@@ -1,0 +1,43 @@
+/*card view*/
+#data.cards{
+    display: grid;
+    text-align: center;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+}
+
+#data.cards div{
+    border: 2px solid black;
+    margin: 2rem;
+    width: 350px;
+}
+
+#data.cards img{
+    border: 1px dashed grey;
+    margin: 1rem;
+}
+
+#data.cards div:nth-child(1){
+    display: none;
+}
+
+/*list view*/
+
+#data.list{
+    display: block;
+}
+
+#data.list img{
+    display: none;
+}
+#data.list div{
+    display: flex;
+    justify-content: space-around;
+}
+
+#data.list div:nth-child(odd){
+    background-color: grey;
+}
+
+#data.list div:nth-child(1){
+    display: flex;
+}

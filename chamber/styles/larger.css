@@ -15,15 +15,15 @@
     }
 
     nav ul{
-            display:flex;
+        display:flex;
     }
 
     nav ul.open{
-            flex-direction: row;
+        flex-direction: row;
     }
     
     #menu-button{
-            display: none;
+        display: none;
     }
 
     .hero img{

@@ -103,19 +103,32 @@ nav li.hover{
     position:absolute;
     top: 1rem;
     right: 1rem;
+    justify-content: center;
 }
 
 #dark-mode::before{
     content: "🌑";
+    height: min-content;
+    justify-content: center;
 }
 
 #dark-mode.dark::before{
     content: "☀️";
 }
 
+nav ul{
+    display: none;
+}
+
+nav ul.open{
+    display: flex;
+    flex-direction: column;
+}
+
 main{
     padding: 10px;
     display:grid;
+    grid-template-columns: 1fr 1fr;
 }
 
 .hero{
@@ -142,6 +155,10 @@ main{
 
 }
 
+#toggle{
+    height:min-content;
+}
+
 .event-cards{
     border: double var(--nav-color) 1px;
     margin: 5px;
@@ -163,6 +180,11 @@ main{
 
 .weather img{
     width: 150px;
+}
+
+.spotlights{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
 }
 
 .spotlight{
@@ -219,6 +241,7 @@ button{
     background-color: var(--nav-color);
     padding: 0.5rem;
     border-radius: 3px;
+    position: relative;
 }
 
 form{

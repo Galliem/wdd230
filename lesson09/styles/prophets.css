@@ -3,7 +3,13 @@
     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
 }
 
-section{
+#cards{
     border: 1px solid black;
     text-align: center;
+    background-color: #ACF39D;
+    margin: 1rem;
+}
+
+#card img{
+    width: 200px;
 }

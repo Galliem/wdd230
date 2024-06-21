@@ -1,0 +1,69 @@
+{
+    "members" : [
+        {
+            "name" : "Texas Gears",
+            "address1" : "199 Sparks St",
+            "address2" : "poolville, TX 76487",
+            "phone" : "817-599-8656",
+            "websiteURL" : "https://txgears.org",
+            "imageURL" : "./images/directory/txgears.webp",
+            "membership" : "gold"
+        },
+
+        {
+            "name" : "Crafted Threads Co.",
+            "address1" : "101 Sparks St",
+            "address2" : "poolville, TX 76487",
+            "phone" : "801-987-7894",
+            "websiteURL" : "https://craftedthreads.org",
+            "imageURL" : "./images/directory/knit.jpg",
+            "membership" : "bronze"
+        },
+        {
+            "name" : "Swift Transit",
+            "address1" : "125 Sparks St",
+            "address2" : "poolville, TX 76487",
+            "phone" : "817-518-9696",
+            "websiteURL" : "https://craftedthreads.org",
+            "imageURL" : "./images/directory/swift.webp",
+            "membership" : "bronze"
+        },
+        {
+            "name" : "EagleEye Transports",
+            "address1" : "16191 FM-920",
+            "address2" : "poolville, TX 76487",
+            "phone" : "817-594-4333",
+            "websiteURL" : "https://eagleeye.org",
+            "imageURL" : "./images/directory/truck.webp",
+            "membership" : "silver"
+        },
+        {
+            "name" : "Plated",
+            "address1" : "230 N Church St",
+            "address2" : "poolville, TX 76487",
+            "phone" : "817-456-1234",
+            "websiteURL" : "https://plated.org",
+            "imageURL" : "./images/directory/plate.webp",
+            "membership" : "gold"
+        },
+        {
+            "name" : "Texan Tacos",
+            "address1" : "15793 FM-920",
+            "address2" : "poolville, TX 76487",
+            "phone" : "801-528-7416",
+            "websiteURL" : "https://txtacos.org",
+            "imageURL" : "./images/directory/taco.jpg",
+            "membership" : "bronze"
+        },
+        {
+            "name" : "Reading Rhino",
+            "address1" : "503 Main St",
+            "address2" : "poolville, TX 76487",
+            "phone" : "817-654-7869",
+            "websiteURL" : "https://readingrhino.org",
+            "imageURL" : "./images/directory/readingRhino.webp",
+            "membership" : "silver"
+        }
+
+    ]
+}

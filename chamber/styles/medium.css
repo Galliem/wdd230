@@ -1,3 +1,11 @@
 @media screen and (min-width: 800px){
-    
+    nav ul{
+        display:flex;
+    }
+    nav ul.open{
+        flex-direction: row;
+    }
+    #menu-button{
+        display: none;
+    }
 }

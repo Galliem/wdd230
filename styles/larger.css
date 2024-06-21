@@ -6,6 +6,6 @@
         flex-direction: row;
     }
     #menu-button{
-        display: none;
+        display:none;
     }
 }

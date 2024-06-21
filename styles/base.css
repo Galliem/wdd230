@@ -108,6 +108,25 @@ main ul li a{
     padding: 10px;
 }
 
+form{
+    padding: 20px;
+    border:1px solid #717EC3;
+}
+label{
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 1fr;
+    position: relative;
+}
+
+.red{
+    color: red;
+}
+
+button{
+    background-color: #717EC3;
+}
+
 footer{
     text-align: center;
     background-color: var(--header-color);
