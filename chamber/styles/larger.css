@@ -31,13 +31,11 @@
     }
     
     .events{
-        border:double var(--nav-color);
         padding: 10px;
         grid-column: 1/3;
     }
     
     .weather{
-        grid-column: 3/4;
         align-content: center;
     }
     
