@@ -1,22 +1,22 @@
 /*card view*/
-#data.cards{
+.cards{
     display: grid;
     text-align: center;
     grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
 }
 
-#data.cards div{
+.cards div{
     border: 2px solid black;
     margin: 2rem;
     width: 350px;
 }
 
-#data.cards img{
+.cards img{
     border: 1px dashed grey;
     margin: 1rem;
 }
 
-#data.cards div:nth-child(1){
+.cards div:nth-child(1){
     display: none;
 }
 

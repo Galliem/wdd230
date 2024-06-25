@@ -18,6 +18,7 @@
     <script src="scripts/getdates.js" defer></script> <!--defer waits for data to load before this script starts-->
     <script src="scripts/hamburgerMenu.js" defer></script>
     <script src="scripts/visits.js" defer></script>
+    <script src="scripts/weather.js" defer></script>
 
 </head>
 <body>
@@ -63,7 +64,8 @@
             </section>
             <section class="card">
                 <h3>Information</h3>
-                <p>Weather Information:</p>
+                <p>Weather Information: <span id="current-temp"></span></p>
+                <img id="weather-icon" src="" alt="weather icon">
                 <p>Page visits: <span id="visits">Placeholder</span></p>
             </section>
             <section class="card-map">
