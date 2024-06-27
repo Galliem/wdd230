@@ -253,3 +253,18 @@ form{
     display:grid;
     grid-template-columns: 1fr 1fr;
 }
+
+.meet-greet{
+    background-color: var(--header-color);
+    grid-column: 1/4;
+    display: none;
+    text-align: center;
+}
+
+.meet-greet .show{
+    display: block;
+}
+
+.meet-greet button{
+    background-color: var(--nav-color);
+}
