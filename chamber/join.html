@@ -36,75 +36,75 @@
             <li><a href="https://galliem.github.io/wdd230/codePen.html">CodePen</a></li>
         </ul>
     </nav>
-    <main>
-        <form name="thankyou.html">
-            <!-- The applicant's first name, text type, required, name, and id. -->
-            <label>First Name:<sup class="red">*</sup> 
-                <input type="text" name="firstname" id="firstname" required>
-            </label>
-            <!-- The applicant's last name, text type, required, name, and id. -->
-            <label>Last Name:<sup class="red">*</sup> 
-                <input type="text" name="lastname" id="lastname" required>
-            </label>
-            <!-- The applicant's title or position within their organization, text type, name, id, required, and pattern to only accept alpha characters, hyphens, and spaces with a min of 7 characters, regular expression.-->
-            <label>Position:<sup class="red">*</sup>
-                <input type="password" name="password" id="password" pattern="[A-Za-z0-9]{7,}" required>
-            </label>
-            <!-- An contact email address, email type, required, name, id, and placeholder which contains an example email input. -->
-             <label>Email:<sup class="red">*</sup>
-                <input type="text" name="email" id="email" required> 
-            </label>
-            <!-- A mobile phone number, telephone type, required, name, and id. -->
-             <label>Phone:<sup class="red">*</sup>
-                <input type="text" name="phone" id="phone" required>
-             </label>
-            <!-- The business/organization's name, text type, required, name, and id. -->
-             <label>Organization's Name:<sup class="red">*</sup>
-                <input type="text" name="organization" id="organization" required>
-             </label>
-            <!-- A membership level selection using an appropriate form field of your choosing to allow the user to select a membership level. There are four membership levels. -->
-             <form>Membership level:<sup class="red">*</sup>
-                <!-- NP Membership is for non profit organizations and there is no fee. 
-                    Bronze Membership
-                    Silver Membership
-                    Gold Membership-->
-                <label for="bronze">Bronze Membership</label>
-                <input type="radio" name="membership" id="bronzeLevel" value="bronze">
-                <label for="silver">Silver Membership</label>
-                <input type="radio" name="membership" id="silverLevel" value="silver">
-                <label for="gold">Gold Membership</label>
-                <input type="radio" name="membership" id="goldLevel" value="gold">
-             </form>
-            <!-- A business/organization's description, text area, name, and id. -->
-             <label>Organization's Description:
-                <input type="text" name="description" id="description">
-             </label>
-            <!-- An input element of type (hidden) with a name and id. This field contains the current date/time in millisecond format Date.now(), which records the date and time that the form was loaded by the user. You must use JavaScript to set the value of this field. 
-                    🚑 Hint: What property do you need to use to set the value of that hidden input element?-->
-            <label>
-                <input type="hidden" name="datetime" id="datetime">
-            </label>
+    <main class="join-page">
+        <form method="GET" action="thankyou.html" class="form">
+                 <!-- The applicant's first name, text type, required, name, and id. -->
+                <label>First Name:<sup class="red">*</sup> 
+                    <input type="text" name="firstname" id="firstname" required>
+                </label>
+                <!-- The applicant's last name, text type, required, name, and id. -->
+                <label>Last Name:<sup class="red">*</sup> 
+                    <input type="text" name="lastname" id="lastname" required>
+                </label>
+                <!-- The applicant's title or position within their organization, text type, name, id, required, and pattern to only accept alpha characters, hyphens, and spaces with a min of 7 characters, regular expression.-->
+                <label>Position:<sup class="red">*</sup>
+                    <input type="password" name="password" id="password" pattern="[A-Za-z0-9]{7,}" required>
+                </label>
+                <!-- An contact email address, email type, required, name, id, and placeholder which contains an example email input. -->
+                <label>Email:<sup class="red">*</sup>
+                    <input type="text" name="email" id="email" required> 
+                </label>
+                <!-- A mobile phone number, telephone type, required, name, and id. -->
+                <label>Phone:<sup class="red">*</sup>
+                    <input type="text" name="phone" id="phone" required>
+                </label>
+                <!-- The business/organization's name, text type, required, name, and id. -->
+                <label>Organization's Name:<sup class="red">*</sup>
+                    <input type="text" name="organization" id="organization" required>
+                </label>
+                <!-- A membership level selection using an appropriate form field of your choosing to allow the user to select a membership level. There are four membership levels. -->
+                <div>Membership level:<sup class="red">*</sup>
+                    <!-- NP Membership is for non profit organizations and there is no fee. 
+                        Bronze Membership
+                        Silver Membership
+                        Gold Membership-->
+                    <label for="bronze">Bronze Membership</label>
+                    <input type="radio" name="membership" id="bronzeLevel" value="bronze">
+                    <label for="silver">Silver Membership</label>
+                    <input type="radio" name="membership" id="silverLevel" value="silver">
+                    <label for="gold">Gold Membership</label>
+                    <input type="radio" name="membership" id="goldLevel" value="gold">
+                </div>
+                    <!-- A business/organization's description, text area, name, and id. -->
+                    <label>Organization's Description:
+                        <input type="text" name="description" id="description">
+                    </label>
+                    <!-- An input element of type (hidden) with a name and id. This field contains the current date/time in millisecond format Date.now(), which records the date and time that the form was loaded by the user. You must use JavaScript to set the value of this field. 
+                            🚑 Hint: What property do you need to use to set the value of that hidden input element?-->
+                    <label>
+                        <input type="hidden" name="datetime" id="datetime">
+                    </label>
 
-            <!-- A form submission button with type submit that is properly labeled in the content area of the button. -->
+                <!-- A form submission button with type submit that is properly labeled in the content area of the button. -->
                 <!-- An <input type="submit"> could be use here. In terms of functionality, they both trigger the form submission when clicked. The choice between them often comes down to personal preference, styling requirements, and whether you need to include additional content within the button. If you need more flexibility and consistent styling, the <button> element might be a better choice. -->
-            <button type="submit-button" name="submit" id="submit">Submit</button>
+                <button id="submit">Submit</button>
+            </form>
             <!-- Membership level benefits should be displayed to the side of the form in larger views. For example, a two column layout may be appropriate. Try to keep things uniform and visually appealing. -->
             <!-- These membership levels have increasing costs as well as increased benefits per level. -->
                 <!-- Benefits might include special events, training, advertising (like spotlight positions on the home page), event discounts, etc. -->
             <div class="membershipLevel">
                 <h2>Membership Level Benefits</h2>
                     <h3>Bronze</h3>
-                    <p>this level...</p>
+                    <p>Ideal for small businesses and startups, the Basic Membership offers a cost-effective way to tap into the Chamber's resources. Members can attend networking events, access member-only discounts, and receive a listing in the Chamber’s directory. This level is perfect for those looking to establish their presence in the local business community.</p>
                     <h3>Silver</h3>
-                    <p>This level...</p>
+                    <p> Designed for established businesses seeking to expand their influence, the Premium Membership includes all the benefits of the Basic level, plus additional perks such as sponsorship opportunities, enhanced directory listings, and priority access to events. Members at this level can also participate in exclusive roundtable discussions with industry leaders.</p>
                     <h3>Gold</h3>
-                    <p>This level... </p>
+                    <p>The pinnacle of Chamber membership, the Executive level is tailored for leaders who want to shape the future of commerce. It includes all the advantages of the Premium level, with the addition of a personal Chamber liaison, opportunities to influence Chamber policy, and invitations to high-profile events and private meetings with policymakers and top executives.</p>
             </div>
-            <!-- 🤖 This might be a good place to use an AI tool to help you generate some membership level descriptions or features for the content. -->
             <!-- Ensure that the design meets standards such as eye tracking in a straight line and proper keyboard progression (tabs) for accessibility. 📃 Designing more Efficient Forms -->
             <!-- Create a new page named "thankyou.html" that expresses gratitude for filling out the form. This page should load when the user has successfully submitted the form. The design should follow your site pattern and does not need to have a lot of actual content. -->
             <!-- The design should deviate from the learning activity's example of styling and design. Make the design your own. -->
-       </form>
+    
     </main>
     <footer>
         <div class="footer">

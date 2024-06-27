@@ -8,7 +8,7 @@ const captionDesc = document.querySelector('figcaption');
 function displayResults(data){
     currentTemp.innerHTML= `${data.main.temp}&deg;F`;
     captionDesc.innerText= data.weather[0].main;
-    weatherIcon.setAttribute("src", "https://openweathermap.org/img/wn/"+data.weather[0].icon+"@2x.png");
+    weatherIcon.setAttribute("src", "https://openweathermap.org/img/wn/"+data.weather[0].icon+"@4x.png");
 }
 
 async function apiFetch() {

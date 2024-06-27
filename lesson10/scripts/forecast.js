@@ -1,3 +1,5 @@
+const weatherURL = "https://api.openweathermap.org/data/2.5/forecast?lat=32.9729017&lon=-97.8654444&appid=64e33ff0d34052fad14e2052b396d978&units=imper64e33ff0d34052fad14e2052b396d978ial";
+
 function showCurrentTimeForecast(forecasts){
     const weatherElt = document.querySelector("body section")
     const timenow = forecasts[0].dt_txt.slice(11, 19)
