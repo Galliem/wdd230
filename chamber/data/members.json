@@ -6,7 +6,7 @@
             "address2" : "poolville, TX 76487",
             "phone" : "817-599-8656",
             "websiteURL" : "https://txgears.org",
-            "imageURL" : "./images/directory/txgears.webp",
+            "imageURL" : "images/txgear.webp",
             "membership" : "gold"
         },
 
@@ -16,7 +16,7 @@
             "address2" : "poolville, TX 76487",
             "phone" : "801-987-7894",
             "websiteURL" : "https://craftedthreads.org",
-            "imageURL" : "./images/directory/knit.jpg",
+            "imageURL" : "images/knit.jpg",
             "membership" : "bronze"
         },
         {
@@ -25,7 +25,7 @@
             "address2" : "poolville, TX 76487",
             "phone" : "817-518-9696",
             "websiteURL" : "https://craftedthreads.org",
-            "imageURL" : "./images/directory/swift.webp",
+            "imageURL" : "images/swift.webp",
             "membership" : "bronze"
         },
         {
@@ -34,7 +34,7 @@
             "address2" : "poolville, TX 76487",
             "phone" : "817-594-4333",
             "websiteURL" : "https://eagleeye.org",
-            "imageURL" : "./images/directory/truck.webp",
+            "imageURL" : "images/truck.webp",
             "membership" : "silver"
         },
         {
@@ -43,7 +43,7 @@
             "address2" : "poolville, TX 76487",
             "phone" : "817-456-1234",
             "websiteURL" : "https://plated.org",
-            "imageURL" : "./images/directory/plate.webp",
+            "imageURL" : "images/plate.webp",
             "membership" : "gold"
         },
         {
@@ -52,7 +52,7 @@
             "address2" : "poolville, TX 76487",
             "phone" : "801-528-7416",
             "websiteURL" : "https://txtacos.org",
-            "imageURL" : "./images/directory/taco.jpg",
+            "imageURL" : "images/taco.jpg",
             "membership" : "bronze"
         },
         {
@@ -61,7 +61,7 @@
             "address2" : "poolville, TX 76487",
             "phone" : "817-654-7869",
             "websiteURL" : "https://readingrhino.org",
-            "imageURL" : "./images/directory/readingRhino.webp",
+            "imageURL" : "images/readingRhino.webp",
             "membership" : "silver"
         }
 

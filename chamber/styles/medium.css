@@ -8,4 +8,10 @@
     #menu-button{
         display: none;
     }
+
+    .event-cards{
+        display: flex;
+        justify-content: space-around;
+    }
+    
 }
