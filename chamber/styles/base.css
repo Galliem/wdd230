@@ -20,6 +20,9 @@ body{
     background-color: var(--background-color);
     color:var(--text-color);
 }
+header img, footer img{
+    padding:1rem;
+}
 .menu{
     background-color: var(--background-color);
     color: var(--text-color);
@@ -119,8 +122,6 @@ nav ul.open{
 
 main{
     padding: 10px;
-    display:grid;
-    grid-template-columns: 1fr 1fr;
 }
 
 .base-footer{
@@ -168,8 +169,7 @@ main{
 
 .event-cards{
     padding: 0.5rem;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    display: block;
     text-align: center;
     border: solid var(--nav-color) 1px;
 }
@@ -191,11 +191,6 @@ main{
 
 .weather img{
     width: 150px;
-}
-
-.spotlights{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
 }
 
 .spotlight{
@@ -232,6 +227,7 @@ main{
     background-color: var(--header-color);
     margin: 1rem;
     padding: 1rem;
+    width: 100%;
 }
 
 /*Join Page*/
@@ -254,8 +250,7 @@ input{
 }
 
 .join-page{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    display: block;
 }
 
 .form{

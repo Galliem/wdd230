@@ -1,5 +1,5 @@
-document.querySelector("button").addEventListener("click", () => {
-    const data = document.querySelector(`#data`)
+document.querySelector("#toggle").addEventListener("click", () => {
+    const data = document.querySelector('#data')
     data.classList.toggle("cards")
     data.classList.toggle("list")
 })

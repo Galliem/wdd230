@@ -10,7 +10,7 @@
     grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
 }
 
-.cards div{
+.cards section{
     border: 2px solid black;
     margin: 2rem;
     width: 350px;
@@ -21,7 +21,7 @@
     margin: 1rem;
 }
 
-.cards div:nth-child(1){
+.cards section:nth-child(1){
     display: none;
 }
 
@@ -34,15 +34,15 @@
 .list img{
     display: none;
 }
-.list div{
+.list section{
     display: flex;
     justify-content: space-around;
 }
 
-.list div:nth-child(odd){
+.list section:nth-child(odd){
     background-color: grey;
 }
 
-.list div:nth-child(1){
+.list section:nth-child(1){
     display: flex;
 }
