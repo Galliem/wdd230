@@ -27,22 +27,22 @@
 
 /*list view*/
 
-#data.list{
+.list{
     display: block;
 }
 
-#data.list img{
+.list img{
     display: none;
 }
-#data.list div{
+.list div{
     display: flex;
     justify-content: space-around;
 }
 
-#data.list div:nth-child(odd){
+.list div:nth-child(odd){
     background-color: grey;
 }
 
-#data.list div:nth-child(1){
+.list div:nth-child(1){
     display: flex;
 }

@@ -16,9 +16,6 @@ function showWindChill(temp, wind){
 
 }
 
-showWindChill(parseInt(tempSpan.innerText), parseInt(windSpan.innerText))
-
-
 
 
 //Weather.js
@@ -28,13 +25,15 @@ const WEATHER_URL= "https://api.openweathermap.org/data/2.5/weather?lat=32.97290
 const currentTemp = document.querySelector('#temperature'); //temp
 const weatherIcon = document.querySelector('#weather-icon'); //image
 const currentWind = document.querySelector('#windspeed'); //wind
-const captionDesc = document.querySelector('figcaption'); //figcaption
+const captionDesc = document.querySelector('#current-conditions'); //conditions
 
 function displayResults(data){
-    currentTemp.innerHTML= `${data.main.temp}`;
+    currentTemp.innerHTML= `${data.main.temp.toFixed(0)}`;
     captionDesc.innerText= data.weather[0].main;
-    currentWind.innerText= data.wind[0];
+    currentWind.innerText= data.wind.speed.toFixed(0);
     weatherIcon.setAttribute("src", "https://openweathermap.org/img/wn/"+data.weather[0].icon+"@2x.png");
+    showWindChill(data.main.temp, data.wind.speed)
+
 }
 
 async function apiFetch() {
@@ -70,10 +69,10 @@ function showCurrentTimeForecast(forecasts){
     //output the next three days temperature
     for(let i=1; i <= 3; i++){
         let newsection = document.createElement("section");
-        let mydate = temps[i].dt_txt.slicce(0, 10)
+        let mydate = temps[i].dt_txt.slice(0, 10)
         let icon = temps[i].weather[0].icon
         newsection.innerHTML = `<h2>${mydate}</h2>
-        <p><img src="https://openweathermap.org/img/wn/${icon}@2px.png" alt="weather icon"></p>
+        <p><img src="https://openweathermap.org/img/wn/${icon}@2x.png" alt="weather icon"></p>
         <p>${temps[i].main.temp.toFixed(0)}&deg;F @ ${timenow}</p>`
         weatherElt.append(newsection)
     }

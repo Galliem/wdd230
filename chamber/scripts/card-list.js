@@ -7,7 +7,7 @@ document.querySelector("button").addEventListener("click", () => {
 /*enters data from JSON file*/
 
 const url = `./data/members.json`
-const cards = document.querySelector('#cards')
+const cards = document.querySelector('#data')
 
 const displayProphets = (members) => {
   members.forEach((member) => {
