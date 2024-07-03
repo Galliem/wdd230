@@ -2,12 +2,17 @@
 
 /*All pages*/
 :root{
-    --background-color:#ECE4B7;
+    /* --background-color:#ECE4B7;
     --accent-color:#D36135;
     --header-color:#E6AA68;
     --text-color:#0D0221;
     --nav-color:#717EC3;
-    --inv-text-color:#ECE4B7;
+    --inv-text-color:#ECE4B7; */
+    --accent-color: #4D937B;
+    --header-color: #E6AA68;
+    --background-color: #F6F3DF;
+    --nav-color: #717EC3;
+    --card-color: #1E044E;
 }
 
 body{
@@ -147,6 +152,7 @@ main{
 
 .hero img{
     width: 100%;
+    height:100%;
 }
 
 .hero button{
