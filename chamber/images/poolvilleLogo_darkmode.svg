@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 720 720">
+  <defs>
+    <style>
+      .cls-1 {
+        font-size: 39px;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4 {
+        fill: #f6f3df;
+      }
+
+      .cls-1, .cls-3, .cls-4 {
+        font-family: FranklinGothic-DemiCond, 'Franklin Gothic Demi Cond';
+        font-weight: 300;
+      }
+
+      .cls-5, .cls-6, .cls-7 {
+        stroke-miterlimit: 10;
+      }
+
+      .cls-5, .cls-8, .cls-9, .cls-10, .cls-11, .cls-7, .cls-12 {
+        fill: none;
+      }
+
+      .cls-5, .cls-8, .cls-9, .cls-11, .cls-12 {
+        stroke-width: 8px;
+      }
+
+      .cls-5, .cls-9, .cls-11 {
+        stroke: #717ec3;
+      }
+
+      .cls-6 {
+        fill: #e6aa68;
+      }
+
+      .cls-6, .cls-12 {
+        stroke: #e6aa68;
+      }
+
+      .cls-8, .cls-9, .cls-10, .cls-11, .cls-12 {
+        stroke-linejoin: round;
+      }
+
+      .cls-8, .cls-10 {
+        stroke: #4d937b;
+      }
+
+      .cls-8, .cls-10, .cls-11, .cls-7, .cls-12 {
+        stroke-linecap: round;
+      }
+
+      .cls-13 {
+        fill: #717ec3;
+        stroke-width: 0px;
+      }
+
+      .cls-10 {
+        stroke-width: 5px;
+      }
+
+      .cls-2 {
+        font-family: FranklinGothic-Heavy, 'Franklin Gothic Heavy';
+        font-size: 125px;
+        font-weight: 800;
+      }
+
+      .cls-3 {
+        font-size: 24px;
+      }
+
+      .cls-4 {
+        font-size: 25px;
+      }
+
+      .cls-7 {
+        stroke: #ece4b7;
+        stroke-width: 7px;
+      }
+    </style>
+  </defs>
+  <g id="Layer_2" data-name="Layer 2">
+    <text class="cls-2" transform="translate(39.75 409.59)"><tspan x="0" y="0">POOLVILLE</tspan></text>
+    <text class="cls-4" transform="translate(581.16 275.02)"><tspan x="0" y="0">1883</tspan></text>
+    <text class="cls-4" transform="translate(107.65 275.02)"><tspan x="0" y="0">EST.</tspan></text>
+    <text class="cls-1" transform="translate(300.73 455.16) scale(1.29 1)"><tspan x="0" y="0">TEXAS</tspan></text>
+    <text class="cls-3" transform="translate(168.11 490.68) scale(1.6 1)"><tspan x="0" y="0">CHAMBER OF COMMERCE</tspan></text>
+  </g>
+  <g id="Layer_3" data-name="Layer 3">
+    <text/>
+    <line class="cls-10" x1="170.04" y1="444.89" x2="260.26" y2="444.89"/>
+    <line class="cls-10" x1="459.74" y1="444.89" x2="549.96" y2="444.89"/>
+    <line class="cls-11" x1="233.47" y1="305.19" x2="486.53" y2="305.19"/>
+    <line class="cls-9" x1="213.96" y1="290.57" x2="506.04" y2="290.57"/>
+    <line class="cls-9" x1="213.96" y1="274.71" x2="506.04" y2="274.71"/>
+    <line class="cls-5" x1="215.15" y1="259.36" x2="504.85" y2="259.36"/>
+    <g>
+      <path class="cls-13" d="M217.48,247.63c1.06-4.37,8.2-31.5,27.27-58.3,12.16-17.08,26.72-30.69,43.28-40.45,20.69-12.19,44.59-18.38,71.03-18.38,27.42.59,52.04,7.14,73.16,19.47,16.89,9.86,31.6,23.43,43.71,40.33,19,26.49,25.61,53.04,26.59,57.33H217.48Z"/>
+      <path class="cls-13" d="M359.06,131c27.34.59,51.86,7.11,72.9,19.39,16.83,9.82,31.49,23.34,43.56,40.17,18.21,25.38,25.02,50.83,26.39,56.57H218.12c1.48-5.84,8.75-31.8,27.02-57.48,12.12-17.03,26.63-30.6,43.13-40.33,20.62-12.15,44.43-18.32,70.78-18.32M359.07,130c-116.34,0-142.22,118.13-142.22,118.13h286.3s-23.39-115.54-144.08-118.13h0Z"/>
+    </g>
+    <line class="cls-7" x1="256.4" y1="220.49" x2="307.47" y2="220.49"/>
+    <line class="cls-7" x1="417.3" y1="220.49" x2="468.36" y2="220.49"/>
+    <line class="cls-7" x1="230.6" y1="232.49" x2="255.45" y2="232.49"/>
+    <line class="cls-7" x1="475.76" y1="232.49" x2="482.47" y2="232.49"/>
+    <polygon class="cls-6" points="360 167.99 369.18 196.23 398.87 196.23 374.85 213.68 384.02 241.92 360 224.47 335.98 241.92 345.15 213.68 321.13 196.23 350.82 196.23 360 167.99"/>
+    <line class="cls-12" x1="311.32" y1="290.57" x2="408.68" y2="290.57"/>
+    <line class="cls-12" x1="290.89" y1="274.71" x2="429.11" y2="274.71"/>
+    <line class="cls-12" x1="274.98" y1="259.36" x2="445.02" y2="259.36"/>
+    <path class="cls-8" d="M197.11,306.55c0-252.26,325.79-250.21,325.79-1.36"/>
+  </g>
+</svg>

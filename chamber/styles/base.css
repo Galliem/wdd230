@@ -190,7 +190,7 @@ main{
 }
 
 .weather img{
-    width: 150px;
+    width: 100px;
 }
 
 .spotlight{
@@ -205,6 +205,8 @@ main{
 /*Directory page*/
 #toggle{
     height:min-content;
+    width: fit-content;
+    color: var(--text-color);
 }
 
 /*Discover page*/
