@@ -50,7 +50,7 @@
                 </label>
                 <!-- An contact email address, email type, required, name, id, and placeholder which contains an example email input. -->
                 <label>Email:<sup class="red">*</sup>
-                    <input type="text" name="email" id="email" required> 
+                    <input type="email" name="email" id="email" required> 
                 </label>
                 <!-- A mobile phone number, telephone type, required, name, and id. -->
                 <label>Phone:<sup class="red">*</sup>
@@ -80,14 +80,14 @@
                         <input type="text" name="description" id="description">
                     </label>
                     <!-- An input element of type (hidden) with a name and id. This field contains the current date/time in millisecond format Date.now(), which records the date and time that the form was loaded by the user. You must use JavaScript to set the value of this field. 
-                            🚑 Hint: What property do you need to use to set the value of that hidden input element?-->
+                        Hint: What property do you need to use to set the value of that hidden input element?-->
                     <label>
                         <input type="hidden" name="datetime" id="datetime">
                     </label>
 
                 <!-- A form submission button with type submit that is properly labeled in the content area of the button. -->
                 <!-- An <input type="submit"> could be use here. In terms of functionality, they both trigger the form submission when clicked. The choice between them often comes down to personal preference, styling requirements, and whether you need to include additional content within the button. If you need more flexibility and consistent styling, the <button> element might be a better choice. -->
-                <button id="submit">Submit</button>
+                <button id="submit" type="submit">Submit</button>
             </form>
             <!-- Membership level benefits should be displayed to the side of the form in larger views. For example, a two column layout may be appropriate. Try to keep things uniform and visually appealing. -->
             <!-- These membership levels have increasing costs as well as increased benefits per level. -->
