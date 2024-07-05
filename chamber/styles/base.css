@@ -134,7 +134,8 @@ main{
     text-align: center;
 }
 .footer section{
-    grid-template-columns: 1fr 1fr;
+    display: grid;
+    grid-template-columns: 1fr 5fr;
 }
 
 .address{
@@ -143,8 +144,6 @@ main{
 
 /*Index page*/
 .hero{
-    border-top: 2px solid var(--nav-color);
-    border-bottom: 2px solid var(--nav-color);
     position: relative;
     text-align: center;
     overflow: hidden;
@@ -152,8 +151,7 @@ main{
 }
 
 .hero img{
-    width: 100%;
-    height:100%;
+    height: 100%;
 }
 
 .hero button{
@@ -260,6 +258,7 @@ main{
 }
 
 /*Discover page*/
+
 #discover-images{
     text-align: center;
 }
