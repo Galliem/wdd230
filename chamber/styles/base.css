@@ -207,6 +207,56 @@ main{
     height:min-content;
     width: fit-content;
     color: var(--text-color);
+    background-color: var(--nav-color);
+}
+
+#data img{
+    width: 100px;
+    height: 100px;
+}
+
+/*Directory card view*/
+.cards{
+    display: grid;
+    text-align: center;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+}
+
+.cards section{
+    border: 2px solid var(--card-color);
+    margin: 2rem;
+    width: 300px;
+}
+
+.cards img{
+    margin: 0.5rem;
+}
+
+.cards section:nth-child(1){
+    display: none;
+}
+
+/*Directory list view*/
+
+.list{
+    display: block;
+    padding: 1rem;
+}
+
+.list img{
+    display: none;
+}
+.list section{
+    display: flex;
+    justify-content: space-around;
+}
+
+.list section:nth-child(odd){
+    background-color: grey;
+}
+
+.list section:nth-child(1){
+    display: flex;
 }
 
 /*Discover page*/

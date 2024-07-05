@@ -1,7 +1,6 @@
 {
     "members" : [
 
-        {},
         {
             "name" : "Crafted Threads Co.",
             "address1" : "101 Sparks St",
@@ -9,7 +8,7 @@
             "phone" : "817-987-7894",
             "websiteURL" : "https://craftedthreads.org",
             "imageURL" : "images/knit.jpg",
-            "membership" : "bronze"
+            "membership" : "Bronze Membership"
         },
         {
             "name" : "EagleEye Transports",
@@ -18,7 +17,7 @@
             "phone" : "817-594-4333",
             "websiteURL" : "https://eagleeye.org",
             "imageURL" : "images/truck.webp",
-            "membership" : "silver"
+            "membership" : "Silver Membership"
         },
         {
             "name" : "Plated",
@@ -27,7 +26,7 @@
             "phone" : "817-456-1234",
             "websiteURL" : "https://plated.org",
             "imageURL" : "images/plate.webp",
-            "membership" : "gold"
+            "membership" : "Gold Membership"
         },
         {
             "name" : "Reading Rhino",
@@ -36,7 +35,7 @@
             "phone" : "817-654-7869",
             "websiteURL" : "https://readingrhino.org",
             "imageURL" : "images/readingRhino.webp",
-            "membership" : "silver"
+            "membership" : "Silver Membership"
         },
         {
             "name" : "Swift Transit",
@@ -45,7 +44,7 @@
             "phone" : "817-518-9696",
             "websiteURL" : "https://craftedthreads.org",
             "imageURL" : "images/swift.webp",
-            "membership" : "bronze"
+            "membership" : "Bronze Membership"
         },
         {
             "name" : "Texan Tacos",
@@ -54,7 +53,7 @@
             "phone" : "817-528-7416",
             "websiteURL" : "https://txtacos.org",
             "imageURL" : "images/taco.jpg",
-            "membership" : "bronze"
+            "membership" : "Bronze Membership"
         },
         {
             "name" : "Texas Gears",
@@ -63,7 +62,7 @@
             "phone" : "817-599-8656",
             "websiteURL" : "https://txgears.org",
             "imageURL" : "images/txgear.webp",
-            "membership" : "gold"
+            "membership" : "Gold Membership"
         }
 
     ]

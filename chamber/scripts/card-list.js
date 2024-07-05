@@ -19,7 +19,7 @@ const displayProphets = (members) => {
                 <p>${member.phone}<p>
                 <p>${member.websiteURL}<p>
                 <p>${member.membership}<p>
-                <img src="${member.imageurl}" alt="${member.name} image" loading="lazy" height="400">`
+                <img src="${member.imageURL}" alt="${member.name} image" loading="lazy" height="400">`
         cards.append(newsection)
   });
 
