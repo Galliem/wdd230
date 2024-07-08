@@ -133,10 +133,6 @@ main{
 .footer-info{
     text-align: center;
 }
-.footer section{
-    display: grid;
-    grid-template-columns: 1fr 5fr;
-}
 
 .address{
     text-align: center;
