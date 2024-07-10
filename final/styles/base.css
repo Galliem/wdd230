@@ -1,0 +1,45 @@
+:root{
+    --accent-color: #E0FF4F;
+    --header-color: #CC7E85;
+    --background-color: #BFD7EA;
+    --nav-color: #0B3954;
+    --card-color: #FF4A47;
+    --border-color: #8B1E3F;
+}
+
+body{
+    background-color: var(--background-color);
+}
+
+header{
+    display: grid;
+    grid-template-columns: 1fr 6fr;
+    justify-content: center;
+    text-align: center;
+    background-color: var(--header-color);
+}
+
+header img{
+    height: 125px;
+    margin: 1rem;
+}
+
+#menu-burger::before{
+    content: "≡";
+}
+
+#menu-burger.open::before{
+    content: "X";
+}
+
+nav ul{
+    display: none;
+}
+nav ul.open{
+    display: flex;
+    flex-direction: column;
+}
+
+footer{
+    background-color: var(--header-color);
+}

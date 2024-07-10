@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="scripts/header-footer.js" defer></script>
+    <link rel="stylesheet" href="styles/base.css">
+    <title>Home</title>
+</head>
+<body>
+    <header>
+        <img src="images/cardLogo.webp" alt="logo">
+        <h1>Garner Greetings</h1>
+    </header>
+    <nav>
+        <button id="menu-burger" class="menu"></button>
+        <ul id="navigation">
+            <li><a href="#">Home</a></li>
+            <li><a href="">Products</a></li>
+            <li><a href="">About Us</a></li>
+        </ul>
+    </nav>
+    <main class="home-main">
+        <section class="hero">
+            <img src="" alt="hero image">
+            <button type="button">View Products</button>
+        </section>
+        <section class="featured">
+            <div class="sports">
+                <h3>Featured 1</h3>
+                <img src="images/1.webp" alt="" height="150">
+                <p>1</p>
+            </div>
+            <div class="market">
+                <h3>Featured 2</h3>
+                <img src="images/2.webp" alt="" height="150">
+                <p>2</p>
+            </div>
+            <div class="sports">
+                <h3>Featured 3</h3>
+                <img src="images/3.webp" alt="" height="150">
+                <p>3</p>
+            </div>
+        </section>
+        <section class="weather">
+            <h2>Weather</h2>
+            <div class="weather-card">
+                <img id="weather-icon" src="images/" alt="weather image">
+                <p>Current Temp: <span id="temperature"></span>&deg;F</p>
+                <p>Current Conditions: <span id="current-conditions"></span></p>  
+                <p>Current Humidity: <span id="humidity"></span></p>
+            </div>
+            <div class="forecast">
+                <h3>Three Day Forecast</h3>
+            </div>
+        </section>
+        <section>
+            <!-- info card with total numbers of orders the current
+             user has completed from the Order page form. This information 
+             should be stored locally. -->
+        </section>
+    </main>
+    <footer>
+        <div class="resources">
+            <p>Open Weather Map    openweathermap.org</p>
+        </div>
+        <div class="media">
+            <li><a href="">Pinterest</a></li>
+            <li><a href="">Instagram</a></li>
+            <li><a href="">Facebook</a></li>
+        </div>
+        <div class="contact">
+            <p>email</p>
+            <p>phone</p>
+            <p>address</p>
+        </div>
+        <p>&copy;<span id="currentYear"></span>Allie Garner</p> <!-- &copy will print a copyright symbol-->
+        <p>Last Modified: <span id="lastModified"></span></p>
+    </footer>
+</body>
+</html>
