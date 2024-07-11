@@ -11,6 +11,7 @@
     <meta name="url"content="https://galliem.github.io/wdd230/final/index.html">
     <script src="scripts/header-footer.js" defer></script>
     <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
     <link rel="icon" href="images/favicon.ico">
     <title>Home</title>
 </head>
@@ -38,20 +39,20 @@
                 <img src="images/cardCamp.jpg" alt="" height="150">
                 <p>"Just a little hi from me"</p>
                 <p>This card is perfect to send to an outdoorsy friend!</p>
-                <a href="order.html?pid=1">Shop Now</a>
+                <button type="button">Order Me</button>
             </div>
             <div class="featured2">
                 <h3>Featured 2</h3>
                 <img src="images/2.webp" alt="" height="150">
                 <p>2</p>
-                <a href="order.html?pid=2">Shop Now</a>
+                <button type="button">Order Me</button>
             </div>
             <div class="featured3">
                 <h3>Reigndeer Card</h3>
                 <img src="images/cardChristmas.jpg" alt="" height="150">
                 <p>Have a family member who loves animals and all things Christmas?</p>
                 <p>Send them this card, they are sure to love it.</p>
-                <a href="order.html?pid=3">Shop Now</a>
+                <button type="button">Order Me</button>
             </div>
         </section>
         <section class="weather">
@@ -63,7 +64,7 @@
                 <p>Current Humidity: <span id="humidity"></span></p>
             </div>
             <div class="forecast">
-                <h3>Three Day Forecast</h3>
+                <h2>Three Day Forecast</h2>
             </div>
         </section>
         <section>
@@ -77,22 +78,28 @@
         </section>
     </main>
     <footer>
-        <div class="resources">
-            <p>Weather provided by Open Weather Map</p>
-        </div>
-        <div class="media">
-            <a href="https://pinterest.com"><img src="images/pinterest.jpg" alt="pinterest logo"></a>
-            <a href="https://instagram.com"><img src="images/instagram.webp" alt="instagram logo"></a>
-            <a href="https://fb.com"><img src="images/facebook.webp" alt="facebook logo"></a>
-        </div>
-        <div class="contact">
-            <p>garnergreetings@email.com</p>
-            <p>801-427-6377</p>
-            <p>2102 Old Garner Rd</p>
-            <p>Garner, TX 76088</p>
-        </div>
-        <p>&copy;<span id="currentYear"></span> Allie Garner</p> <!-- &copy will print a copyright symbol-->
-        <p>Last Modified: <span id="lastModified"></span></p>
+        <section class="footer-find">
+            <div class="resources">
+                <p>Weather provided by Open Weather Map</p>
+                <p>Stamped images are from Stampin' Up®</p>
+            </div>
+            <div class="media">
+                <a href="https://pinterest.com"><img src="images/pinterest.png" alt="pinterest logo"></a>
+                <a href="https://instagram.com"><img src="images/instagram.webp" alt="instagram logo"></a>
+                <a href="https://fb.com"><img src="images/facebook.webp" alt="facebook logo"></a>
+            </div>
+            <div class="contact">
+                <p>garnergreetings@email.com</p>
+                <p>801-427-6377</p>
+                <p>2102 Old Garner Rd</p>
+                <p>Garner, TX 76088</p>
+            </div>
+        </section>
+        
+        <section class="footer-info">
+            <p>&copy;<span id="currentYear"></span> Allie Garner</p> <!-- &copy will print a copyright symbol-->
+            <p>Last Modified: <span id="lastModified"></span></p>
+        </section>
     </footer>
 </body>
 </html>

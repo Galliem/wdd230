@@ -1,10 +1,11 @@
 :root{
     --accent-color: #E0FF4F;
-    --header-color: #CC7E85;
+    --header-color: #FF6663;
     --background-color: #BFD7EA;
     --nav-color: #0B3954;
-    --card-color: #FF4A47;
+    --card-color: #CC7E85;
     --border-color: #8B1E3F;
+    --inv-text-color: #ffffff;
 }
 
 body{
@@ -36,10 +37,11 @@ header img{
 
 button{
     background-color: var(--accent-color);
-    border-radius: 25px;
 }
 
 #navigation{
+    background-color: var(--nav-color);
+    color: var(--inv-text-color);
     display: none;
 }
 
@@ -55,17 +57,53 @@ button{
 
 .hero button{
     position: absolute;
-}
+    top: 2rem;
+    left: 2rem;
+    color: black;
+    padding: 0.5rem;
+    border: 1px black solid;
+    border-radius: 4px;
+    }
 
 .hero img{
     height: 400px;
+}
+
+.featured{
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    padding: 0.5rem;
+    text-align: center;
+    background-color: var(--card-color);
+    border: solid var(--border-color) 1px;
+}
+
+.featured div{
+    background-color: var(--background-color);
+    border-radius: 15px;
+    padding: 0.5rem;
+    margin: 0.5rem;
+    border: var(--border-color) solid 1px;
+}
+
+.weather{
+    margin-bottom: 1rem;
+    text-align: center;
+    background-color: var(--card-color);
+    border: solid var(--border-color) 1px;
 }
 
 .media img{
     height:50px;
 }
 
-footer{
+.footer-find{
+    background-color: var(--nav-color);
+    color: var(--inv-text-color);
+    text-align: center;
+}
+
+.footer-info{
     background-color: var(--header-color);
     text-align: center;
     text-decoration: none;

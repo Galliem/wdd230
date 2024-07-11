@@ -17,15 +17,31 @@ menubutton.addEventListener("click", () =>{
 function openJoinPage(){
     window.open("products.html")
 }
-
 document.querySelector(".hero button").addEventListener("click", openJoinPage)
+
+//card buttons
+function openOrderPage(){
+    window.open("order.html?pid=2")
+}
+document.querySelector(".featured2 button").addEventListener("click", openOrderPage)
+
+function openOrderPage(){
+    window.open("order.html?pid=3")
+}
+document.querySelector(".featured3 button").addEventListener("click", openOrderPage)
+
+function openOrderPage(){
+    window.open("order.html?pid=1")
+}
+
+document.querySelector(".featured1 button").addEventListener("click", openOrderPage)
 
 //Import products info  (enters data from JSON file)
 
 const url = `./data/products.json`
 const cards = document.querySelector('#data')
 
-const displayProphets = (cards) => {
+const displayProducts = (cards) => {
   cards.forEach((card) => {
     let newsection = document.createElement("section");
     newsection.innerHTML = `
@@ -39,4 +55,4 @@ const displayProphets = (cards) => {
 
 }
 
-getProphetData()
+displayProducts()
