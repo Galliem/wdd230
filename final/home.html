@@ -3,8 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="WDD 230 - Final Project - Allie Garner">
+    <meta name="author" content="Allie Garner">
+    <meta name="og:title" content="Garner Greetings">
+    <meta name="og:type" content="website">
+    <meta name="og:image" content="https://galliem.github.io/wdd230/final/images/cardLogo.webp">
+    <meta name="url"content="https://galliem.github.io/wdd230/final/index.html">
     <script src="scripts/header-footer.js" defer></script>
     <link rel="stylesheet" href="styles/base.css">
+    <link rel="icon" href="images/favicon.ico">
     <title>Home</title>
 </head>
 <body>
@@ -22,24 +29,29 @@
     </nav>
     <main class="home-main">
         <section class="hero">
-            <img src="" alt="hero image">
+            <img src="images/cardSnail.jpg" alt="hero image">
             <button type="button">View Products</button>
         </section>
         <section class="featured">
-            <div class="sports">
-                <h3>Featured 1</h3>
-                <img src="images/1.webp" alt="" height="150">
-                <p>1</p>
+            <div class="featured1">
+                <h3>Camper Card</h3>
+                <img src="images/cardCamp.jpg" alt="" height="150">
+                <p>"Just a little hi from me"</p>
+                <p>This card is perfect to send to an outdoorsy friend!</p>
+                <a href="order.html?pid=1">Shop Now</a>
             </div>
-            <div class="market">
+            <div class="featured2">
                 <h3>Featured 2</h3>
                 <img src="images/2.webp" alt="" height="150">
                 <p>2</p>
+                <a href="order.html?pid=2">Shop Now</a>
             </div>
-            <div class="sports">
-                <h3>Featured 3</h3>
-                <img src="images/3.webp" alt="" height="150">
-                <p>3</p>
+            <div class="featured3">
+                <h3>Reigndeer Card</h3>
+                <img src="images/cardChristmas.jpg" alt="" height="150">
+                <p>Have a family member who loves animals and all things Christmas?</p>
+                <p>Send them this card, they are sure to love it.</p>
+                <a href="order.html?pid=3">Shop Now</a>
             </div>
         </section>
         <section class="weather">
@@ -59,22 +71,27 @@
              user has completed from the Order page form. This information 
              should be stored locally. -->
         </section>
+        <section class="map">
+            <iframe src="https://www.google.com/maps/place/Salt+Lake+City,+UT/@40.7770622,-112.085745,11z/data=!3m1!4b1!4m6!3m5!1s0x87523d9488d131ed:0x5b53b7a0484d31ca!8m2!3d40.7607793!4d-111.8910474!16zL20vMGYycjY?entry=ttu"
+                width="=600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
     </main>
     <footer>
         <div class="resources">
-            <p>Open Weather Map    openweathermap.org</p>
+            <p>Weather provided by Open Weather Map</p>
         </div>
         <div class="media">
-            <li><a href="">Pinterest</a></li>
-            <li><a href="">Instagram</a></li>
-            <li><a href="">Facebook</a></li>
+            <a href="https://pinterest.com"><img src="images/pinterest.jpg" alt="pinterest logo"></a>
+            <a href="https://instagram.com"><img src="images/instagram.webp" alt="instagram logo"></a>
+            <a href="https://fb.com"><img src="images/facebook.webp" alt="facebook logo"></a>
         </div>
         <div class="contact">
-            <p>email</p>
-            <p>phone</p>
-            <p>address</p>
+            <p>garnergreetings@email.com</p>
+            <p>801-427-6377</p>
+            <p>2102 Old Garner Rd</p>
+            <p>Garner, TX 76088</p>
         </div>
-        <p>&copy;<span id="currentYear"></span>Allie Garner</p> <!-- &copy will print a copyright symbol-->
+        <p>&copy;<span id="currentYear"></span> Allie Garner</p> <!-- &copy will print a copyright symbol-->
         <p>Last Modified: <span id="lastModified"></span></p>
     </footer>
 </body>

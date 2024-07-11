@@ -17,6 +17,7 @@ header{
     justify-content: center;
     text-align: center;
     background-color: var(--header-color);
+    border-radius: 15px 15px 0px 0px;
 }
 
 header img{
@@ -26,20 +27,46 @@ header img{
 
 #menu-burger::before{
     content: "≡";
+    background-color: var(--accent-color);
 }
 
 #menu-burger.open::before{
     content: "X";
 }
 
-nav ul{
+button{
+    background-color: var(--accent-color);
+    border-radius: 25px;
+}
+
+#navigation{
     display: none;
 }
-nav ul.open{
+
+#navigation.open{
     display: flex;
     flex-direction: column;
+    border-radius: 0px 0px 15px 15px;
+}
+
+.hero{
+    position: relative;
+}
+
+.hero button{
+    position: absolute;
+}
+
+.hero img{
+    height: 400px;
+}
+
+.media img{
+    height:50px;
 }
 
 footer{
     background-color: var(--header-color);
+    text-align: center;
+    text-decoration: none;
 }

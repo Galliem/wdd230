@@ -1,0 +1,33 @@
+{
+    "cards" : [
+
+        {
+           "name" : "Snail Mail",
+           "number" : "",
+            "season" : "Spring",
+            "type" : "just a note",
+            "imageURL" : "images/cardSnail.jpg" 
+        },
+        {
+            "name" : "Yellow Camper",
+            "number" : "",
+            "season" : "Fall",
+            "type" : "just a note",
+            "imageURL" : "images/cardCamper.jpg"
+        },
+        {
+            "name" : "",
+            "number" : "",
+            "season" : "",
+            "type" : "",
+            "imageURL" : ""
+        },
+        {
+            "name" : "Reigndeer",
+            "number" : "",
+            "season" : "Winter",
+            "type" : "just a note",
+            "imageURL" : "images/cardChristmas.jpg"
+        }
+    ]
+}
