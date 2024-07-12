@@ -9,11 +9,11 @@
             "imageURL" : "images/cardCamper.jpg"
         },
         {
-            "name" : "",
+            "name" : "Sun",
             "number" : "2",
-            "season" : "",
-            "type" : "",
-            "imageURL" : ""
+            "season" : "Summer",
+            "type" : "just a note",
+            "imageURL" : "images/cardSun.jpg"
         },
         {
             "name" : "Reigndeer",
@@ -28,6 +28,46 @@
              "season" : "Spring",
              "type" : "just a note",
              "imageURL" : "images/cardSnail.jpg" 
-         }
+         },
+         {
+            "name" : "Birdhouse",
+            "number" : "5",
+            "season" : "Spring",
+            "type" : "just a note",
+            "imageURL" : "images/IMG_0975"
+        },
+        {
+            "name" : "Chameleon",
+            "number" : "6",
+            "season" : "Spring",
+            "type" : "just a note",
+            "imageURL" : "images/IMG_1046"
+        },
+        {
+            "name" : "Popsicle",
+            "number" : "7",
+            "season" : "Sumemr",
+            "type" : "just a note",
+            "imageURL" : "images/IMG_1242"
+        },
+        {
+            "name" : "Fox",
+            "number" : "8",
+            "season" : "Fall",
+            "type" : "Just a note",
+            "imageURL" : "images/IMG_1249"
+        }, {
+            "name" : "Otter",
+            "number" : "9",
+            "season" : "Summer",
+            "type" : "Just a note",
+            "imageURL" : "images/IMG_1255"
+        }, {
+            "name" : "Gate",
+            "number" : "10",
+            "season" : "Spring",
+            "type" : "Just a note",
+            "imageURL" : "images/IMG_1257"
+        }
     ]
 }
