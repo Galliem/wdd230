@@ -1,20 +1,103 @@
-<!-- dont say submit on the button -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Prophets</title>
-    <link rel="stylesheet" href="styles/prophets.css">
-    <script src="scripts/prophets.js" defer></script>
+    <meta name="description" content="WDD 230 - Final Project - Allie Garner">
+    <meta name="author" content="Allie Garner">
+    <meta name="og:title" content="Garner Greetings">
+    <meta name="og:type" content="website">
+    <meta name="og:image" content="https://galliem.github.io/wdd230/final/images/cardLogo.webp">
+    <meta name="url"content="https://galliem.github.io/wdd230/final/index.html">
+    <script src="scripts/header-footer.js" defer></script>
+    <script src="scripts/products.js" defer></script>
+    <script src="scripts/order.js" defer></script>
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="icon" href="images/favicon.ico">
+    <title>Home</title>
 </head>
 <body>
-
+    <header>
+        <img src="images/cardLogo.webp" alt="logo">
+        <h1>Garner Greetings</h1>
+    </header>
+    <nav>
+        <button id="menu-burger" class="menu"></button>
+        <ul id="navigation" class="nav">
+            <li><a href="#">Home</a></li>
+            <li><a href="">Products</a></li>
+            <li><a href="">About Us</a></li>
+        </ul>
+    </nav>
+<body>
       <main>
-
+        <div id="product-data"></div> 
+        <!-- dont say submit on the button -->
       </main>
-      <footer>
-        Allie Garner | Latter-day Prophets
-      </footer>
+      <main class="join-page">
+        <form method="GET" action="confirm.html" class="form">
+                 <!-- The applicant's first name, text type, required, name, and id. -->
+                <label>First Name:<sup class="red">*</sup> 
+                    <input type="text" name="firstname" id="firstname" required>
+                </label>
+                <!-- The applicant's last name, text type, required, name, and id. -->
+                <label>Last Name:<sup class="red">*</sup> 
+                    <input type="text" name="lastname" id="lastname" required>
+                </label>
+                <!-- An contact email address, email type, required, name, id, and placeholder which contains an example email input. -->
+                <label>Email:<sup class="red">*</sup>
+                    <input type="email" name="email" id="email" required> 
+                </label>
+                <!-- A mobile phone number, telephone type, required, name, and id. -->
+                <label>Phone:<sup class="red">*</sup>
+                    <input type="tel" name="phone" id="phone" required>
+                </label>
+                <!-- The street address, text type, required, name, and id. -->
+                <label>Street Address:<sup class="red">*</sup>
+                    <input type="text" name="street" id="street" required>
+                </label>
+                <!-- The city name, text type, required, name, and id. -->
+                <label>City:<sup class="red">*</sup>
+                  <input type="text" name="city" id="city" required>
+                </label>
+                <!-- The city name, text type, required, name, and id. -->
+                <label>State:<sup class="red">*</sup>
+                  <input type="text" name="state" id="state" pattern="[A-Z]{2}" required>
+                </label>
+                <label>Zip Code:<sup class="red">*</sup>
+                  <input type="text" name="zip" id="zip" pattern="[0-9]{5}" required>
+                </label>
+                <label>Gift Message:
+                  <input type="text" name="gift" id="gift">
+                </label>
+                <!-- An <input type="submit"> could be use here or a button element. -->
+                <button id="submit" type="submit">Send the card!</button>
+            </form>
+    </main>
+</body>
+<footer>
+  <section class="footer-find">
+    <div class="resources">
+        <p>Weather provided by Open Weather Map</p>
+        <p>Stamped images are from Stampin' Up®</p>
+    </div>
+    <div class="media">
+        <a href="https://pinterest.com"><img src="images/pinterest.png" alt="pinterest logo"></a>
+        <a href="https://instagram.com"><img src="images/instagram.webp" alt="instagram logo"></a>
+        <a href="https://fb.com"><img src="images/facebook.webp" alt="facebook logo"></a>
+    </div>
+    <div class="contact">
+        <p>garnergreetings@email.com</p>
+        <p>718-427-6377</p>
+        <p>2102 Old Garner Rd</p>
+        <p>Garner, TX 76088</p>
+    </div>
+</section>
+  <section class="footer-info">
+      <p>&copy;<span id="currentYear"></span> Allie Garner</p> <!-- &copy will print a copyright symbol-->
+      <p>Last Modified: <span id="lastModified"></span></p>
+  </section>
+</footer>
 </body>
 </html>

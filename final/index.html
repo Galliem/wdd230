@@ -10,9 +10,11 @@
     <meta name="og:image" content="https://galliem.github.io/wdd230/final/images/cardLogo.webp">
     <meta name="url"content="https://galliem.github.io/wdd230/final/index.html">
     <script src="scripts/header-footer.js" defer></script>
+    <script src="scripts/weather.js" defer></script>
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/larger.css">
     <link rel="icon" href="images/favicon.ico">
+    
     <title>Home</title>
 </head>
 <body>
@@ -22,16 +24,16 @@
     </header>
     <nav>
         <button id="menu-burger" class="menu"></button>
-        <ul id="navigation">
+        <ul id="navigation" class="nav">
             <li><a href="#">Home</a></li>
             <li><a href="">Products</a></li>
             <li><a href="">About Us</a></li>
         </ul>
     </nav>
-    <main class="home-main">
+    <main class="index-main">
         <section class="hero">
             <img src="images/cardSnail.jpg" alt="hero image">
-            <button type="button">View Products</button>
+            <button type="view-button">View Products</button>
         </section>
         <section class="featured">
             <div class="featured1">
@@ -73,10 +75,6 @@
              user has completed from the Order page form. This information 
              should be stored locally. -->
         </section>
-        <section class="map">
-            <iframe src="https://www.google.com/maps/place/Salt+Lake+City,+UT/@40.7770622,-112.085745,11z/data=!3m1!4b1!4m6!3m5!1s0x87523d9488d131ed:0x5b53b7a0484d31ca!8m2!3d40.7607793!4d-111.8910474!16zL20vMGYycjY?entry=ttu"
-                width="=600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </section>
     </main>
     <footer>
         <section class="footer-find">
@@ -91,12 +89,11 @@
             </div>
             <div class="contact">
                 <p>garnergreetings@email.com</p>
-                <p>801-427-6377</p>
+                <p>718-427-6377</p>
                 <p>2102 Old Garner Rd</p>
                 <p>Garner, TX 76088</p>
             </div>
         </section>
-        
         <section class="footer-info">
             <p>&copy;<span id="currentYear"></span> Allie Garner</p> <!-- &copy will print a copyright symbol-->
             <p>Last Modified: <span id="lastModified"></span></p>
