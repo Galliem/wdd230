@@ -45,9 +45,9 @@ button{
     content: "X";
 }
 
-/* nav ul{
+nav ul{
     display: none;
-} */
+}
 
 nav ul.open{
     display: flex;
