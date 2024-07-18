@@ -11,10 +11,10 @@
     <meta name="url"content="https://galliem.github.io/wdd230/final/index.html">
     <script src="scripts/header-footer.js" defer></script>
     <script src="scripts/weather.js" defer></script>
+    <script src="scripts/orders-complete.js" defer></script>
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/larger.css">
     <link rel="icon" href="images/favicon.ico">
-    
     <title>Home</title>
 </head>
 <body>
@@ -22,18 +22,18 @@
         <img src="images/cardLogo.webp" alt="logo">
         <h1>Garner Greetings</h1>
     </header>
-    <nav>
-        <button id="menu-burger" class="menu"></button>
-        <ul id="navigation" class="nav">
+    <button id="menu-burger" class="menu" type="button"></button>
+    <nav id="navigation" class="nav">
+        <ul>
             <li><a href="#">Home</a></li>
-            <li><a href="">Products</a></li>
-            <li><a href="">About Us</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="about.html">About Us</a></li>
         </ul>
     </nav>
     <main class="index-main">
         <section class="hero">
             <img src="images/cardSnail.jpg" alt="hero image">
-            <button type="view-button">View Products</button>
+            <button class="view-button" type="button">View Products</button>
         </section>
         <section class="featured">
             <div class="featured1">
@@ -51,7 +51,7 @@
                 <button type="button">Order Me</button>
             </div>
             <div class="featured3">
-                <h3>Reigndeer Card</h3>
+                <h3>Reindeer Card</h3>
                 <img src="images/cardChristmas.jpg" alt="" height="150">
                 <p>Have a family member who loves animals and all things Christmas?</p>
                 <p>Send them this card, they are sure to love it.</p>
@@ -61,6 +61,7 @@
         <section class="weather">
             <h2>Weather</h2>
             <div class="weather-card">
+                <h2>Today</h2>
                 <img id="weather-icon" src="images/" alt="weather image">
                 <p>Current Temp: <span id="temperature"></span>&deg;F</p>
                 <p>Current Conditions: <span id="current-conditions"></span></p>  
@@ -71,9 +72,9 @@
             </div>
         </section>
         <section>
-            <!-- info card with total numbers of orders the current
-             user has completed from the Order page form. This information 
-             should be stored locally. -->
+            <!-- info card with total numbers of orders the currentuser has completed from the Order page form. 
+             This information should be stored locally. -->
+            <h2>Your Orders</h2>
         </section>
     </main>
     <footer>
@@ -89,7 +90,7 @@
             </div>
             <div class="contact">
                 <p>garnergreetings@email.com</p>
-                <p>718-427-6377</p>
+                <p>940-427-6377</p>
                 <p>2102 Old Garner Rd</p>
                 <p>Garner, TX 76088</p>
             </div>

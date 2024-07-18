@@ -12,6 +12,7 @@
     <script src="scripts/header-footer.js" defer></script>
     <script src="scripts/products.js" defer></script>
     <script src="scripts/order.js" defer></script>
+    <script src="scripts/orders-complete.js" defer></script>
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/larger.css">
     <link rel="icon" href="images/favicon.ico">
@@ -23,17 +24,16 @@
         <h1>Garner Greetings</h1>
     </header>
     <nav>
-        <button id="menu-burger" class="menu"></button>
+        <button id="menu-burger" class="menu" type="button">X</button>
         <ul id="navigation" class="nav">
-            <li><a href="#">Home</a></li>
-            <li><a href="">Products</a></li>
-            <li><a href="">About Us</a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="about.html">About Us</a></li>
         </ul>
     </nav>
 <body>
       <main>
         <div id="product-data"></div> 
-        <!-- dont say submit on the button -->
       </main>
       <main class="join-page">
         <form method="GET" action="confirm.html" class="form">
@@ -72,7 +72,7 @@
                   <input type="text" name="gift" id="gift">
                 </label>
                 <!-- An <input type="submit"> could be use here or a button element. -->
-                <button id="submit" type="submit">Send the card!</button>
+                <button id="send" type="send">Send the card!</button>
             </form>
     </main>
 </body>
@@ -89,7 +89,7 @@
     </div>
     <div class="contact">
         <p>garnergreetings@email.com</p>
-        <p>718-427-6377</p>
+        <p>940-427-6377</p>
         <p>2102 Old Garner Rd</p>
         <p>Garner, TX 76088</p>
     </div>

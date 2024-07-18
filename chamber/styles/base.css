@@ -56,10 +56,6 @@ header img{
     padding: 15px
 }
 
-#menu::before{
-    content: "=";
-}
-
 #menu.dark::before{
     content: "X";
 }

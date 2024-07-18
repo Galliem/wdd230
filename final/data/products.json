@@ -4,70 +4,97 @@
         {
             "name" : "Yellow Camper",
             "number" : "1",
-            "season" : "Fall",
-            "type" : "just a note",
-            "imageURL" : "images/cardCamper.jpg"
+            "price" : "$12",
+            "type" : "This card is perfect to send to an outdoorsy friend!",
+            "imageURL" : "images/cardCamper.jpg",
+            "featured" : "true"
         },
         {
             "name" : "Sun",
             "number" : "2",
-            "season" : "Summer",
-            "type" : "just a note",
-            "imageURL" : "images/cardSun.jpg"
+            "price" : "$12",
+            "type" : "This card is sure to please, send it to a friend.",
+            "imageURL" : "images/cardSun.jpg",
+            "featured" : "true"
         },
         {
             "name" : "Reigndeer",
             "number" : "3",
-            "season" : "Winter",
-            "type" : "just a note",
-            "imageURL" : "images/cardChristmas.jpg"
+            "price" : "$15",
+            "type" : "Have a family member who loves animals and all things Christmas? Send them this card, they are sure to love it.",
+            "imageURL" : "images/cardChristmas.jpg",
+            "featured" :"true"
         },
         {
             "name" : "Snail Mail",
             "number" : "4",
-             "season" : "Spring",
-             "type" : "just a note",
-             "imageURL" : "images/cardSnail.jpg" 
+             "price" : "$15",
+             "type" : "A happy snail will bring a smile to your friend's face.",
+             "imageURL" : "images/cardSnail.jpg",
+             "featured" : ""
          },
          {
             "name" : "Birdhouse",
             "number" : "5",
-            "season" : "Spring",
-            "type" : "just a note",
-            "imageURL" : "images/IMG_0975"
+            "price" : "$10",
+            "type" : "A simple card to tell them you are thinking about them.",
+            "imageURL" : "images/IMG_0975.jpg",
+            "featured" : ""
         },
         {
             "name" : "Chameleon",
             "number" : "6",
-            "season" : "Spring",
-            "type" : "just a note",
-            "imageURL" : "images/IMG_1046"
+            "price" : "$12",
+            "type" : "A note to send to your significant other",
+            "imageURL" : "images/IMG_1046.jpg",
+            "featured" : ""
         },
         {
             "name" : "Popsicle",
             "number" : "7",
-            "season" : "Sumemr",
-            "type" : "just a note",
-            "imageURL" : "images/IMG_1242"
+            "price" : "$10",
+            "type" : "Let them know how important they are in your life.",
+            "imageURL" : "images/IMG_1242.jpg",
+            "featured" : ""
         },
         {
             "name" : "Fox",
             "number" : "8",
-            "season" : "Fall",
+            "price" : "$10",
             "type" : "Just a note",
-            "imageURL" : "images/IMG_1249"
+            "imageURL" : "images/IMG_1249.jpg",
+            "featured" : ""
         }, {
             "name" : "Otter",
             "number" : "9",
-            "season" : "Summer",
+            "price" : "$12",
             "type" : "Just a note",
-            "imageURL" : "images/IMG_1255"
-        }, {
+            "imageURL" : "images/IMG_1255.jpg",
+            "featured" : ""
+        },
+        {
             "name" : "Gate",
             "number" : "10",
-            "season" : "Spring",
-            "type" : "Just a note",
-            "imageURL" : "images/IMG_1257"
+            "price" : "$10",
+            "type" : "A lovely letter for a grandparent",
+            "imageURL" : "images/IMG_1257.jpg",
+            "featured" : ""
+        },
+        {
+            "name" : "",
+            "number" : "11",
+            "price" : "",
+            "type" : "",
+            "imageURL" : "images/IMG_",
+            "featured" : ""
+        },
+        {
+            "name" : "",
+            "number" : "12",
+            "price" : "",
+            "type" : "",
+            "imageURL" : "images/IMG_",
+            "featured" : ""
         }
     ]
 }
