@@ -21,7 +21,7 @@ body{
     color:var(--text-color);
 }
 header img, footer img{
-    padding:1rem;
+    padding: 1rem;
 }
 .menu{
     background-color: var(--background-color);

@@ -1,12 +1,6 @@
-//View Products button
-function openProductPage(){
-    window.open("products.html")
-}
-document.querySelector(".view-button").addEventListener("click", openProductPage)
-
 //hamberger menu
 let menubutton = document.getElementById("menu-burger")
-let nav = document.querySelector("#nav ul")
+let nav = document.querySelector("nav ul")
 menubutton.addEventListener("click", () =>{
     menubutton.classList.toggle("open")
     nav.classList.toggle("open")

@@ -6,8 +6,8 @@
             "number" : "1",
             "price" : "$12",
             "type" : "This card is perfect to send to an outdoorsy friend!",
-            "imageURL" : "images/cardCamper.jpg",
-            "featured" : "true"
+            "imageURL" : "images/cardCamp.jpg",
+            "featured" : true
         },
         {
             "name" : "Sun",
@@ -15,7 +15,7 @@
             "price" : "$12",
             "type" : "This card is sure to please, send it to a friend.",
             "imageURL" : "images/cardSun.jpg",
-            "featured" : "true"
+            "featured" : true
         },
         {
             "name" : "Reigndeer",
@@ -23,7 +23,7 @@
             "price" : "$15",
             "type" : "Have a family member who loves animals and all things Christmas? Send them this card, they are sure to love it.",
             "imageURL" : "images/cardChristmas.jpg",
-            "featured" :"true"
+            "featured" :true
         },
         {
             "name" : "Snail Mail",
@@ -31,7 +31,7 @@
              "price" : "$15",
              "type" : "A happy snail will bring a smile to your friend's face.",
              "imageURL" : "images/cardSnail.jpg",
-             "featured" : ""
+             "featured" : false
          },
          {
             "name" : "Birdhouse",
@@ -39,7 +39,7 @@
             "price" : "$10",
             "type" : "A simple card to tell them you are thinking about them.",
             "imageURL" : "images/IMG_0975.jpg",
-            "featured" : ""
+            "featured" : false
         },
         {
             "name" : "Chameleon",
@@ -47,7 +47,7 @@
             "price" : "$12",
             "type" : "A note to send to your significant other",
             "imageURL" : "images/IMG_1046.jpg",
-            "featured" : ""
+            "featured" : false
         },
         {
             "name" : "Popsicle",
@@ -55,46 +55,46 @@
             "price" : "$10",
             "type" : "Let them know how important they are in your life.",
             "imageURL" : "images/IMG_1242.jpg",
-            "featured" : ""
+            "featured" : false
         },
         {
             "name" : "Fox",
             "number" : "8",
             "price" : "$10",
-            "type" : "Just a note",
+            "type" : "'Life may change...'",
             "imageURL" : "images/IMG_1249.jpg",
-            "featured" : ""
+            "featured" : false
         }, {
             "name" : "Otter",
             "number" : "9",
             "price" : "$12",
-            "type" : "Just a note",
+            "type" : "'You are otterly awesome'",
             "imageURL" : "images/IMG_1255.jpg",
-            "featured" : ""
+            "featured" : false
         },
         {
-            "name" : "Gate",
+            "name" : "Floral Gate",
             "number" : "10",
             "price" : "$10",
-            "type" : "A lovely letter for a grandparent",
+            "type" : "'Hello Sunshine'",
             "imageURL" : "images/IMG_1257.jpg",
-            "featured" : ""
+            "featured" : false
         },
         {
-            "name" : "",
+            "name" : "Watermelon",
             "number" : "11",
-            "price" : "",
-            "type" : "",
-            "imageURL" : "images/IMG_",
-            "featured" : ""
+            "price" : "$10",
+            "type" : "'I miss you'",
+            "imageURL" : "images/IMG_2066.jpg",
+            "featured" : false
         },
         {
-            "name" : "",
+            "name" : "Cactus",
             "number" : "12",
-            "price" : "",
-            "type" : "",
-            "imageURL" : "images/IMG_",
-            "featured" : ""
+            "price" : "$10",
+            "type" : "'Hope your day is on point'",
+            "imageURL" : "images/IMG_1324.jpg",
+            "featured" : false
         }
     ]
 }

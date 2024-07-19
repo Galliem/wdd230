@@ -22,6 +22,7 @@ header{
     border-radius: 15px 15px 0px 0px;
 }
 
+
 header img{
     height: 125px;
     margin: 1rem;
@@ -34,7 +35,6 @@ button{
 .menu{
     background-color: var(--nav-color);
     color: var(--inv-text-color);
-    position:absolute;
 }
 
 #menu-burger::before{
@@ -123,6 +123,31 @@ nav li.hover{
 .forecast div{
     padding: 1rem;
     border-radius: 15px;
+}
+
+/*Product Card View*/
+.cards{
+    display: grid;
+    text-align: center;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+}
+
+.cards section{
+    border: 2px solid var(--border-color);
+    background-color: var(--card-color);
+    margin: 2rem;
+    width: 300px;
+}
+
+.cards img{
+    margin: 0.5rem;
+    max-width: 250px;
+    height: auto;
+    border: 1px solid var(--border-color);
+}
+
+.cards section:nth-child(0){
+    display: none;
 }
 
 /* About */
