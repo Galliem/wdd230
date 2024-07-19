@@ -12,7 +12,7 @@ const displayProducts = (cards) => {
                 <p>Price: ${card.price}<p>
                 <p>${card.type}<p>
                 <img src="${card.imageURL}" alt="${card.name} image" loading="lazy" height="400">
-                <button class="orderNow" id="orderNow" type="button">Order Now</button>`
+                <a href="order.html?pid=${card.number}">Order Now</a>`
         cardBox.append(newsection)
   });
 
@@ -38,4 +38,4 @@ getProductData()
 function openOrderPage(){
   window.open("order.html")
 }
-document.querySelector("#orderNow").addEventListener("click", openOrderPage)
+document.querySelector("#send").addEventListener("click", openOrderPage)

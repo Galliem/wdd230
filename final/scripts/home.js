@@ -5,7 +5,7 @@ function openProductPage(){
 document.querySelector(".view-button").addEventListener("click", openProductPage)
 
 //orderNow button
-function openOrderPage(){
+function openPage(){
     window.open("order.html")
 }
-document.querySelector("#orderNow").addEventListener("click", openOrderPage)
+document.querySelector("#orderNow").addEventListener("click", openPage)

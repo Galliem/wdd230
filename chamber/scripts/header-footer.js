@@ -1,3 +1,4 @@
+//Footer
 let datespan = document.querySelector("#currentYear")
 datespan.innerText = new Date().getFullYear()
 

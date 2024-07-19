@@ -1,19 +1,19 @@
 //In your js file, declare three const variables that hold references to the input, button, and list elements.
 
-const favorder = document.querySelector("#favorder") // stores input
-const addbutton =document.querySelector("#send") //button in order.html
+const favorder = document.querySelector("#firstname") // stores input
+const addbutton =document.querySelector("#send") //submit button in order.html
 const mylist = document.querySelector("#list") //list
 const ORDER_KEY = "orders"
 
-let chapterList = getListFromStorage()
-chapterList.forEach(addItem)
+let orderList = getListFromStorage()
+orderList.forEach(addItem)
 
 function getListFromStorage(){
     let orderString = localStorage.getItem(ORDER_KEY)
     if (orderString == null){
-        return []
+        orderString = 1
     }
-    return JSON.parse(chapterString)
+    return JSON.parse(orderString)
 }
 
 function updateLocalStorage(){
@@ -25,7 +25,7 @@ function addItem(item){
         let newitem = document.createElement("li")
     
         // populate the li elements textContent or innerHTML with the input value
-        newitem.innerText = item  //item was favchap.value
+        newitem.innerText = item  //item was favorder.value
         newitem.setAttribute("order", item)
     
         // append the li element to the unordered list in your HTML
@@ -39,10 +39,11 @@ addbutton.addEventListener("click", () => {
     //add item from user
     addItem(favorder.value)
     //update the internal list
-    chapterList.push(favorder.value) //.push adds item to the end of the list
+    orderList.push(favorder.value) //.push adds item to the end of the list
     //save to local storage
     updateLocalStorage()
     
     // change the input value to nothing or the empty string to clean up the interface for the user
     favorder.value = ""
 })
+

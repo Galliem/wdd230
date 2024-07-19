@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
 :root{
     --accent-color: #E0FF4F;
     --header-color: #FF6663;
@@ -10,7 +12,7 @@
 
 body{
     background-color: var(--background-color);
-    /*font-family: ;*/
+    font-family: sans-serif;
 }
 
 header{

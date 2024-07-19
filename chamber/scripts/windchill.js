@@ -16,8 +16,6 @@ function showWindChill(temp, wind){
 
 }
 
-
-
 //Weather.js
 const WEATHER_URL= "https://api.openweathermap.org/data/2.5/weather?lat=32.9729017&lon=-97.8654444&appid=64e33ff0d34052fad14e2052b396d978&units=imperial";
 

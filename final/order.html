@@ -15,6 +15,7 @@
     <script src="scripts/orders-complete.js" defer></script>
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/larger.css">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap" rel="stylesheet">
     <link rel="icon" href="images/favicon.ico">
     <title>Home</title>
 </head>
@@ -33,7 +34,7 @@
     </nav>
 <body>
       <main>
-        <div id="product-order"></div> 
+        <div id="product-data"></div> 
       </main>
       <main class="join-page">
         <form method="GET" action="confirm.html" class="form">
@@ -63,7 +64,7 @@
                 </label>
                 <!-- The city name, text type, required, name, and id. -->
                 <label>State:<sup class="red">*</sup>
-                  <input type="text" name="state" id="state" pattern="[A-Z]{2}" required>
+                  <input type="text" name="state" id="state" placeholder="ID" pattern="[A-Z]{2}" required>
                 </label>
                 <label>Zip Code:<sup class="red">*</sup>
                   <input type="text" name="zip" id="zip" pattern="[0-9]{5}" required>
@@ -72,7 +73,7 @@
                   <input type="text" name="gift" id="gift">
                 </label>
                 <!-- An <input type="submit"> could be use here or a button element. -->
-                <button id="send" type="send">Send the card!</button>
+                <button id="send" type="submit">Send the card!</button>
             </form>
     </main>
 </body>
