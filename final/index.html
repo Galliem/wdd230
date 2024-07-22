@@ -13,7 +13,6 @@
     <script src="scripts/home.js" defer></script>
     <script src="scripts/weather.js" defer></script>
     <script src="scripts/featured.js" defer></script>
-    <script src="scripts/orders-complete.js" defer></script>
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/larger.css">
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap" rel="stylesheet">
@@ -38,7 +37,9 @@
             <img src="images/cardSnail.jpg" alt="hero image">
             <button class="view-button" type="button">View Products</button>
         </section>
-        <section id="product-data"></section>
+        <div>
+            <section id="product-data" class="cards"></section>
+        </div>
         <section class="weather">
             <h2>Weather</h2>
             <div class="weather-card">
@@ -52,10 +53,11 @@
                 <h2>Three Day Forecast</h2>
             </div>
         </section>
-        <section class="orders-complete">
+        <section class="order-visits">
             <!-- info card with total numbers of orders the currentuser has completed from the Order page form. 
              This information should be stored locally. -->
             <h2>Your Orders</h2>
+            <p id="visits"></p>
         </section>
     </main>
     <footer>

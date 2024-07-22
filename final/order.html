@@ -34,8 +34,6 @@
 <body>
       <main>
         <div id="product-data"></div> 
-      </main>
-      <main class="join-page">
         <form method="GET" action="confirm.html" class="form">
                  <!-- The applicant's first name, text type, required, name, and id. -->
                 <label>First Name:<sup class="red">*</sup> 
@@ -68,6 +66,7 @@
                 <label>Zip Code:<sup class="red">*</sup>
                   <input type="text" name="zip" id="zip" pattern="[0-9]{5}" required>
                 </label>
+                <input type="hidden" name="pid" id="pid" value="">
                 <label>Gift Message:
                   <input type="text" name="gift" id="gift">
                 </label>

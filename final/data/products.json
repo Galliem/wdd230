@@ -15,7 +15,7 @@
             "number" : "2",
             "price" : "$12",
             "type" : "This card is sure to please, send it to a friend.",
-            "imageURL" : "images/cardSun.jpg",
+            "imageURL" : "images/card-sun.jpg",
             "featured" : true,
             "ordered": false
         },

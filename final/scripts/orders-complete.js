@@ -47,3 +47,18 @@ addbutton.addEventListener("click", () => {
     favorder.value = ""
 })
 
+//order counter
+let visits = getNumberOfVisits()
+
+function getNumberOfVisits(){
+    let visitcount = localStorage.getItem("orders")
+    if (visitcount == null){
+        visitcount = 0
+    }
+    else{
+        visitcount = parseInt(visitcount)
+    }
+    visitcount = visitcount + 1
+    localStorage.setItem("orders",`${visitcount}`)
+    return visitcount
+}
