@@ -19,7 +19,6 @@ const displayProducts = (cards) => {
 }
 
 
-
 async function getProductData(){
     const response = await fetch(url) /*await is a blocking call, it waits until the data loads to continue running*/
     if (response.ok){
@@ -33,9 +32,3 @@ async function getProductData(){
 }
 
 getProductData()
-
-//orderNow button
-function openOrderPage(){
-  window.open("order.html")
-}
-document.querySelector("#send").addEventListener("click", openOrderPage)

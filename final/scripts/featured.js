@@ -7,16 +7,16 @@ const displayProducts = (cards) => {
   cards.forEach((card) => {
     let newsection = document.createElement("section");
     newsection.innerHTML = `
-                <h2>${card.name}</h2>
-                <p>${card.number}<p>
-                <p>${card.season}<p>
-                <p>${card.type}<p>
-                <img src="${card.imageURL}" alt="${card.name} image" loading="lazy" height="400">`
-        cardBox.append(newsection)
+      <h2>${card.name}</h2>
+      <p>${card.number}<p>
+      <p>${card.season}<p>
+      <p>${card.type}<p>
+      <img src="${card.imageURL}" alt="${card.name} image" loading="lazy" height="400">
+      <a href="order.html?pid=${card.number}">Order Now</a>`
+    cardBox.append(newsection)
   });
 
 }
-
 
 
 async function getProductData(){

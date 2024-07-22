@@ -139,6 +139,12 @@ nav li.hover{
     background-color: var(--card-color);
     margin: 2rem;
     width: 300px;
+    padding: 1rem;
+}
+
+.cards a{
+    color: var(--nav-color);
+    text-decoration: none;
 }
 
 .cards img{

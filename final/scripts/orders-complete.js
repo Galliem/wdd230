@@ -11,7 +11,7 @@ orderList.forEach(addItem)
 function getListFromStorage(){
     let orderString = localStorage.getItem(ORDER_KEY)
     if (orderString == null){
-        orderString = 1
+        orderString = "[]"
     }
     return JSON.parse(orderString)
 }
