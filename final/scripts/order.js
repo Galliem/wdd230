@@ -1,6 +1,8 @@
 let orderURL = new URL(window.location);
 let params  = orderURL.searchParams;
 let ordered = params.get("pid");
+let tax = card.price * 0.05
+let totalprice = tax + card.price
 
 document.getElementById("pid").value=ordered;
 
@@ -14,7 +16,7 @@ const displayProducts = (cards) => {
     newsection.innerHTML = `
                 <h2>${card.name}</h2>
                 <p>${card.number}<p>
-                <p>${card.season}<p>
+                <p>${card.price} + ${tax}tax = total: ${totalprice}<p>
                 <p>${card.type}<p>
                 <img src="${card.imageURL}" alt="${card.name} image" loading="lazy" height="400">`
         cardBox.append(newsection)

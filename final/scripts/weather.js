@@ -50,7 +50,7 @@ function showCurrentTimeForecast(forecasts){
         let mydate = temps[i].dt_txt.slice(0, 10)
         let icon = temps[i].weather[0].icon
         newsection.innerHTML = `<div><h2>${mydate}</h2>
-        <p><img src="https://openweathermap.org/img/wn/${icon}@2x.png" alt="weather icon"></p>
+        <p><img src="https://openweathermap.org/img/wn/${icon}@2x.png" alt="weather icon" loading="lazy"></p>
         <p>${temps[i].main.temp.toFixed(0)}&deg;F @ ${timenow}</p></div>`
         weatherElt.append(newsection)
     }

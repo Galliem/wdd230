@@ -82,4 +82,15 @@
     .images img{
         max-width: 350px;
     }
+
+    /* order */
+    form{
+        display: grid;
+        text-align: right;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    form button{
+        width: fit-content;
+    }
 }
