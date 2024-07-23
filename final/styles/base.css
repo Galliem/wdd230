@@ -226,7 +226,10 @@ form{
     background-color: var(--card-color);
     margin: 2rem;
     padding: 1rem;
-    text-align: center;
+}
+
+form input{
+    display: block;
 }
 
 form label{
