@@ -1,8 +1,6 @@
 let orderURL = new URL(window.location);
 let params  = orderURL.searchParams;
 let ordered = params.get("pid");
-let tax = card.price * 0.05
-let totalprice = tax + card.price
 
 document.getElementById("pid").value=ordered;
 
@@ -13,6 +11,8 @@ const cardBox = document.querySelector('#product-data')
 const displayProducts = (cards) => {
   cards.forEach((card) => {
     let newsection = document.createElement("section");
+    let tax = card.price * 0.05;
+    let totalprice = tax + card.price;
     newsection.innerHTML = `
                 <h2>${card.name}</h2>
                 <p>${card.number}<p>
