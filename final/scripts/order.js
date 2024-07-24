@@ -15,7 +15,7 @@ const displayProducts = (cards) => {
     let totalprice = (tax + card.price).toFixed(2);
     newsection.innerHTML = `
                 <h2>${card.name}</h2>
-                <p>${card.number}<p>
+                <p>SKU: ${card.number}<p>
                 <p>$${card.price} + $${tax} tax = total: $${totalprice}<p>
                 <p>${card.type}<p>
                 <img src="${card.imageURL}" alt="${card.name} image" loading="lazy" height="400">`
