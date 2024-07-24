@@ -37,9 +37,7 @@
         display: none;
     }
     
-    .hero img{
-        max-height: 400px;
-    }
+
 
     .forecast section{
         display: inline-block;
@@ -84,9 +82,7 @@
     }
 
     /* order */
-    form{
-        text-align: right;
-    }
+
 
     form button{
         width: fit-content;

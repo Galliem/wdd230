@@ -61,6 +61,7 @@ nav ul li{
     width: 100%;
     background-color: var(--accent-color);
     text-align: center;
+    padding: 0.5rem;
 }
 
 nav ul li a{
@@ -75,6 +76,12 @@ nav li.hover{
 /* Index page */
 .hero{
     position: relative;
+    max-height: 300px;
+    overflow: hidden;
+    text-align: center;
+}
+.hero img{
+    max-height: 300px;
 }
 
 .hero button{
@@ -86,10 +93,6 @@ nav li.hover{
     border: 1px black solid;
     border-radius: 4px;
     }
-
-.hero img{
-    max-height: 300px;
-}
 
 #product-data a{
     background-color: var(--accent-color);
@@ -230,11 +233,11 @@ form{
 
 form input{
     display: block;
+    margin-bottom: 1rem;
 }
 
 form label{
     display: block;
-    padding: 1rem;
 }
 
 /* Footer */

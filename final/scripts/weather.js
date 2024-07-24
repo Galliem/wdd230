@@ -39,7 +39,7 @@ const ONE_DAY = 24*60*60*1000
 function showCurrentTimeForecast(forecasts){
     const weatherElt = document.querySelector(".forecast")
     //get current time from the first element
-    const timenow = forecasts[2].dt_txt.slice(12, 19)
+    const timenow = "09:00:00"
 
     //build a new list of temp forecasts witht the same time
     let temps = forecasts.filter(x => x.dt_txt.indexOf(timenow) != -1)
