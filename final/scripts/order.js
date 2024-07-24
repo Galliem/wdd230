@@ -11,12 +11,12 @@ const cardBox = document.querySelector('#product-data')
 const displayProducts = (cards) => {
   cards.forEach((card) => {
     let newsection = document.createElement("section");
-    let tax = (card.price * 0.05).toFixed(2);
-    let totalprice = (tax + card.price).toFixed(2);
+    let tax = (card.price * 0.05);
+    let totalprice = (tax + card.price);
     newsection.innerHTML = `
                 <h2>${card.name}</h2>
                 <p>SKU: ${card.number}<p>
-                <p>$${card.price} + $${tax} tax = total: $${totalprice}<p>
+                <p>$${card.price} + $${tax.toFixed(2)} tax = total: $${totalprice.toFixed(2)}<p>
                 <p>${card.type}<p>
                 <img src="${card.imageURL}" alt="${card.name} image" loading="lazy" height="400">`
         cardBox.append(newsection)

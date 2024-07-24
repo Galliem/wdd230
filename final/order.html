@@ -17,11 +17,11 @@
     <link rel="stylesheet" href="styles/larger.css">
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap" rel="stylesheet">
     <link rel="icon" href="images/favicon.ico">
-    <title>Home</title>
+    <title>Order</title>
 </head>
 <body>
     <header>
-        <img src="images/cardLogo.webp" alt="logo">
+        <img src="images/card-logo.png" alt="logo">
         <h1>Garner Greetings</h1>
     </header>
     <nav>
@@ -33,7 +33,7 @@
         </ul>
     </nav>
 <body>
-      <main>
+      <main class="order-main">
         <div id="product-data"></div> 
         <form method="GET" action="confirm.html" class="form">
                  <!-- The applicant's first name, text type, required, name, and id. -->
@@ -68,9 +68,8 @@
                   <input type="text" name="zip" id="zip" pattern="[0-9]{5}" required>
                 </label>
                 <input type="hidden" name="pid" id="pid" value="">
-                <label>Gift Message:
-                  <input type="text" name="gift" id="gift">
-                </label>
+                <label for id="gift">Gift Message:</label>
+                <textarea id="gift" name="gift" rows="5"></textarea>
                 <!-- An <input type="submit"> could be use here or a button element. -->
                 <button id="send" type="submit">Send the card!</button>
             </form>

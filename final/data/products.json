@@ -6,7 +6,7 @@
             "number" : "1",
             "price" : 12,
             "type" : "This card is perfect to send to an outdoorsy friend!",
-            "imageURL" : "images/cardCamp.jpg",
+            "imageURL" : "images/card-camp.jpg",
             "featured" : true,
             "ordered": true
         },
@@ -24,7 +24,7 @@
             "number" : "3",
             "price" : 15,
             "type" : "Have a family member who loves animals and all things Christmas? Send them this card, they are sure to love it.",
-            "imageURL" : "images/cardChristmas.jpg",
+            "imageURL" : "images/card-christmas.jpg",
             "featured" :true,
             "ordered": false
         },
@@ -33,7 +33,7 @@
             "number" : "4",
              "price" : 15,
              "type" : "A happy snail will bring a smile to your friend's face.",
-             "imageURL" : "images/cardSnail.jpg",
+             "imageURL" : "images/card-snail.jpg",
              "featured" : false,
              "ordered": false
          },
@@ -42,7 +42,7 @@
             "number" : "5",
             "price" : 10,
             "type" : "A simple card to tell them you are thinking about them.",
-            "imageURL" : "images/IMG_0975.jpg",
+            "imageURL" : "images/img0975.jpg",
             "featured" : false,
             "ordered": false
         },
@@ -51,7 +51,7 @@
             "number" : "6",
             "price" : 12,
             "type" : "A note to send to your significant other",
-            "imageURL" : "images/IMG_1046.jpg",
+            "imageURL" : "images/img1046.jpg",
             "featured" : false,
             "ordered": false
         },
@@ -60,7 +60,7 @@
             "number" : "7",
             "price" : 10,
             "type" : "Let them know how important they are in your life.",
-            "imageURL" : "images/IMG_1242.jpg",
+            "imageURL" : "images/img1242.jpg",
             "featured" : false,
             "ordered": false
         },
@@ -69,7 +69,7 @@
             "number" : "8",
             "price" : 10,
             "type" : "'Life may change...'",
-            "imageURL" : "images/IMG_1249.jpg",
+            "imageURL" : "images/img1249.jpg",
             "featured" : false,
             "ordered": false
         }, {
@@ -77,7 +77,7 @@
             "number" : "9",
             "price" : 12,
             "type" : "'You are otterly awesome'",
-            "imageURL" : "images/IMG_1255.jpg",
+            "imageURL" : "images/img1255.jpg",
             "featured" : false,
             "ordered": false
         },
@@ -86,7 +86,7 @@
             "number" : "10",
             "price" : 10,
             "type" : "'Hello Sunshine'",
-            "imageURL" : "images/IMG_1257.jpg",
+            "imageURL" : "images/img1257.jpg",
             "featured" : false,
             "ordered": false
         },
@@ -95,7 +95,7 @@
             "number" : "11",
             "price" : 10,
             "type" : "'I miss you'",
-            "imageURL" : "images/IMG_2066.jpg",
+            "imageURL" : "images/img2066.jpg",
             "featured" : false,
             "ordered": false
         },
@@ -104,7 +104,7 @@
             "number" : "12",
             "price" : 10,
             "type" : "'Hope your day is on point'",
-            "imageURL" : "images/IMG_1324.jpg",
+            "imageURL" : "images/img1324.jpg",
             "featured" : false,
             "ordered": false
         }

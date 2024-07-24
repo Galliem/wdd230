@@ -26,8 +26,8 @@ const displayProducts = (cards) => {
     let newsection = document.createElement("section");
     newsection.innerHTML = `
                 <h2>${card.name}</h2>
-                <p>${card.number}<p>
-                <p>${card.season}<p>
+                <p>SKU: ${card.number}<p>
+                <p>$${card.price}<p>
                 <p>${card.type}<p>
                 <img src="${card.imageURL}" alt="${card.name} image" loading="lazy" height="400">`
         cardBox.append(newsection)

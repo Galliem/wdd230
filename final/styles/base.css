@@ -144,7 +144,7 @@ nav li.hover{
 
 .cards section{
     border: 2px solid var(--border-color);
-    background-color: var(--background-color);
+    background-color: var(--card-color);
     margin: 2rem;
     width: 300px;
     padding: 1rem;
@@ -215,12 +215,12 @@ nav li.hover{
     border-radius: 15px; 
 }
 
+#review{
+    padding: 1rem;
+}
+
 /* Order */
 main div{
-    border: 2px solid var(--border-color);
-    background-color: var(--card-color);
-    margin: 2rem;
-    padding: 1rem;
     text-align: center;
 }
 
@@ -234,6 +234,7 @@ form{
 form input{
     display: block;
     margin-bottom: 1rem;
+    padding: 0.5rem;
 }
 
 form label{
@@ -256,4 +257,5 @@ form label{
     background-color: var(--header-color);
     text-align: center;
     text-decoration: none;
+    padding: 0.5rem;
 }
